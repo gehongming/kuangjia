@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-BI9MG9T",
+    "children" : [ {
+      "name" : "13728-MainThread",
+      "children" : [ {
+        "name" : "test_2",
+        "uid" : "55b931ac33bd16e4",
+        "parentUid" : "72c92c86a98214c75aa182bbe672cb16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561906947014,
+          "stop" : 1561906951231,
+          "duration" : 4217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1",
+        "uid" : "7dce39c7f655c905",
+        "parentUid" : "72c92c86a98214c75aa182bbe672cb16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561906932854,
+          "stop" : 1561906935672,
+          "duration" : 2818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_3",
+        "uid" : "b2017e7286cbee2",
+        "parentUid" : "72c92c86a98214c75aa182bbe672cb16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561906961698,
+          "stop" : 1561906966279,
+          "duration" : 4581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72c92c86a98214c75aa182bbe672cb16"
+    } ],
+    "uid" : "c570cc9e1c096df5d9cb4688d049dcec"
+  } ]
+}

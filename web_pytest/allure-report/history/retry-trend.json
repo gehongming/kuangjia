@@ -1,0 +1,17 @@
+[ {
+  "buildOrder" : 8,
+  "reportUrl" : "http://192.168.100.106:8080/job/web_pytest/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://192.168.100.106:8080/job/web_pytest/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+} ]

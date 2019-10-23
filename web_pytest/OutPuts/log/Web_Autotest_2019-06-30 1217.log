@@ -1,0 +1,44 @@
+2019-06-30 12:17:32,635 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//input[@type="text"and@name="account"]') 可见。 - [basepage.py:30 ]
+2019-06-30 12:17:32,672 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 12:17:32.636247，结束等待时间点：2019-06-30 12:17:32.672151，等待时长为：0:00:00.035904 - [basepage.py:38 ]
+2019-06-30 12:17:32,672 -  work_pytest.common.basepage -INFO - 查找 输入手机号 中的元素 ('xpath', '//input[@type="text"and@name="account"]')  - [basepage.py:53 ]
+2019-06-30 12:17:32,682 -  work_pytest.common.basepage -INFO -  给元素 ('xpath', '//input[@type="text"and@name="account"]') 输入文本内容:('17625188013',) - [basepage.py:93 ]
+2019-06-30 12:17:32,781 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//input[@type="password"]') 可见。 - [basepage.py:30 ]
+2019-06-30 12:17:32,813 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 12:17:32.781859，结束等待时间点：2019-06-30 12:17:32.813773，等待时长为：0:00:00.031914 - [basepage.py:38 ]
+2019-06-30 12:17:32,813 -  work_pytest.common.basepage -INFO - 查找 输入密码 中的元素 ('xpath', '//input[@type="password"]')  - [basepage.py:53 ]
+2019-06-30 12:17:32,823 -  work_pytest.common.basepage -INFO -  给元素 ('xpath', '//input[@type="password"]') 输入文本内容:('woaini@1314',) - [basepage.py:93 ]
+2019-06-30 12:17:32,941 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]') 可见。 - [basepage.py:30 ]
+2019-06-30 12:17:32,977 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 12:17:32.942429，结束等待时间点：2019-06-30 12:17:32.977353，等待时长为：0:00:00.034924 - [basepage.py:38 ]
+2019-06-30 12:17:32,977 -  work_pytest.common.basepage -INFO - 查找 点击登录 中的元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]')  - [basepage.py:53 ]
+2019-06-30 12:17:32,987 -  work_pytest.common.basepage -INFO -  点击元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]') - [basepage.py:76 ]
+2019-06-30 12:17:33,186 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//a[@class="close"]') 可见。 - [basepage.py:30 ]
+2019-06-30 12:17:35,550 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 12:17:33.188774，结束等待时间点：2019-06-30 12:17:35.549460，等待时长为：0:00:02.360686 - [basepage.py:38 ]
+2019-06-30 12:17:35,550 -  work_pytest.common.basepage -INFO - 查找 关闭弹框 中的元素 ('xpath', '//a[@class="close"]')  - [basepage.py:53 ]
+2019-06-30 12:17:35,560 -  work_pytest.common.basepage -INFO -  点击元素 ('xpath', '//a[@class="close"]') - [basepage.py:76 ]
+2019-06-30 12:17:35,812 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//div[@class="ktcon1l fl"]') 可见。 - [basepage.py:30 ]
+2019-06-30 12:17:35,858 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 12:17:35.812757，结束等待时间点：2019-06-30 12:17:35.858634，等待时长为：0:00:00.045877 - [basepage.py:38 ]
+2019-06-30 12:17:35,858 -  work_pytest.common.basepage -INFO - 查找 点击加入课程 中的元素 ('xpath', '//div[@class="ktcon1l fl"]')  - [basepage.py:53 ]
+2019-06-30 12:17:35,869 -  work_pytest.common.basepage -INFO -  点击元素 ('xpath', '//div[@class="ktcon1l fl"]') - [basepage.py:76 ]
+2019-06-30 12:17:36,052 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//input[@placeholder="请输入课程加课验证码"]') 可见。 - [basepage.py:30 ]
+2019-06-30 12:17:36,108 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 12:17:36.053114，结束等待时间点：2019-06-30 12:17:36.108966，等待时长为：0:00:00.055852 - [basepage.py:38 ]
+2019-06-30 12:17:36,108 -  work_pytest.common.basepage -INFO - 查找 输入加课验证码 中的元素 ('xpath', '//input[@placeholder="请输入课程加课验证码"]')  - [basepage.py:53 ]
+2019-06-30 12:17:36,118 -  work_pytest.common.basepage -INFO -  给元素 ('xpath', '//input[@placeholder="请输入课程加课验证码"]') 输入文本内容:('UEPLPQ ',) - [basepage.py:93 ]
+2019-06-30 12:17:36,224 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//a[text()="加入"]') 可见。 - [basepage.py:30 ]
+2019-06-30 12:17:36,282 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 12:17:36.225653，结束等待时间点：2019-06-30 12:17:36.282506，等待时长为：0:00:00.056853 - [basepage.py:38 ]
+2019-06-30 12:17:36,283 -  work_pytest.common.basepage -INFO - 查找 确定加入 中的元素 ('xpath', '//a[text()="加入"]')  - [basepage.py:53 ]
+2019-06-30 12:17:36,298 -  work_pytest.common.basepage -INFO -  点击元素 ('xpath', '//a[text()="加入"]') - [basepage.py:76 ]
+2019-06-30 12:17:36,401 -  work_pytest.common.basepage -ERROR - 点击元素失败 - [basepage.py:81 ]
+Traceback (most recent call last):
+  File "D:\py-15\作业\work_pytest\common\basepage.py", line 78, in click_element
+    ele.click()
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="btn btn-positive" href="javascript:void(0);">...</a> is not clickable at point (838, 421). Other element would receive the click: <li class="notifyV2-item clearfix type-red" data-id="MDAwMDAwMDAwMLOspduH39Gxhc52oQ">...</li>
+  (Session info: chrome=75.0.3770.100)
+
+2019-06-30 12:17:36,884 -  work_pytest.common.basepage -INFO - 网页截图成功。图片存储在：D:\py-15\作业\work_pytest\Outputs\screenshots/确定加入_2019-06-30 12_17_36.png - [basepage.py:143 ]

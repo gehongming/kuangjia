@@ -1,0 +1,13 @@
+INFO     api_pytst.testcases.test_2register:test_2register.py:25 开始测试第2条：注册成功
+INFO     api_pytst.testcases.test_2register:test_2register.py:33 IP是:201.113.153.186
+INFO     api_pytst.testcases.test_2register:test_2register.py:40 uesename是徐雷
+INFO     api_pytst.testcases.test_2register:test_2register.py:49 请求数据是:{"verify_code":'606894',"user_id":"徐雷","channel_id":"1","pwd":"123456","ip": "201.113.153.186", "mobile":"18539456321"}
+INFO     api_pytst.testcases.test_2register:test_2register.py:60 请求是:{'case_id': 2, 'title': '注册成功', 'url': 'finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl', 'data': '{"verify_code":\'606894\',"user_id":"徐雷","channel_id":"1","pwd":"123456","ip": "201.113.153.186", "mobile":"18539456321"}', 'method': 'userRegister', 'expected': 'ok', 'result': 'Pass', 'check_sql': '{\'sql1\':\'SELECT Fuser_id FROM user_db.t_user_info\',\'sql2\':\'SELECT * FROM user_db.t_user_info WHERE Fuser_id="user_name"\'}'}
+INFO     api_pytst.testcases.test_2register:test_2register.py:62 实际值:ok
+INFO     api_pytst.testcases.test_2register:test_2register.py:77 执行的sqlSELECT * FROM user_db.t_user_info WHERE Fuser_id="user_name"
+INFO     api_pytst.testcases.test_2register:test_2register.py:81 sql执行结果:()
+ERROR    api_pytst.testcases.test_2register:test_2register.py:88 报错了，assert 0 == 1
+  -0
+  +1
+INFO     api_pytst.testcases.test_2register:test_2register.py:91 响应结果是：False
+INFO     api_pytst.testcases.test_2register:test_2register.py:93 结束测试：注册成功

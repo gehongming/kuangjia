@@ -1,0 +1,89 @@
+{
+  "9d49cf2f2962c3fc29ccf9ecec47dfef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7dce39c7f655c905",
+      "reportUrl" : "http://192.168.100.106:8080/job/web_pytest/8/allure/#testresult/7dce39c7f655c905",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561906932854,
+        "stop" : 1561906935672,
+        "duration" : 2818
+      }
+    }, {
+      "uid" : "b23bcc2a82d43930",
+      "reportUrl" : "http://192.168.100.106:8080/job/web_pytest/7/allure/#testresult/b23bcc2a82d43930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561906717673,
+        "stop" : 1561906720375,
+        "duration" : 2702
+      }
+    } ]
+  },
+  "b58a6d1a4ce2b164297522e83d872723" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "55b931ac33bd16e4",
+      "reportUrl" : "http://192.168.100.106:8080/job/web_pytest/8/allure/#testresult/55b931ac33bd16e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561906947014,
+        "stop" : 1561906951231,
+        "duration" : 4217
+      }
+    }, {
+      "uid" : "1828beaa654eb77f",
+      "reportUrl" : "http://192.168.100.106:8080/job/web_pytest/7/allure/#testresult/1828beaa654eb77f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561906731436,
+        "stop" : 1561906735396,
+        "duration" : 3960
+      }
+    } ]
+  },
+  "700a67ae142ba094404fafe728f2cdd2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b2017e7286cbee2",
+      "reportUrl" : "http://192.168.100.106:8080/job/web_pytest/8/allure/#testresult/b2017e7286cbee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561906961698,
+        "stop" : 1561906966279,
+        "duration" : 4581
+      }
+    }, {
+      "uid" : "51e5545ce0625fee",
+      "reportUrl" : "http://192.168.100.106:8080/job/web_pytest/7/allure/#testresult/51e5545ce0625fee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561906745264,
+        "stop" : 1561906749437,
+        "duration" : 4173
+      }
+    } ]
+  }
+}

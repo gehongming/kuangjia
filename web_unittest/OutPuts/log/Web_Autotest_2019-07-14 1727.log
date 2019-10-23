@@ -1,0 +1,35 @@
+2019-07-14 17:27:50,464 -  web_pytest.common.basepage -INFO - 等待元素 ('xpath', '//input[@type="text"and@name="account"]') 可见。 - [basepage.py:25 ]
+2019-07-14 17:27:50,516 -  web_pytest.common.basepage -INFO - 开始等待时间点：2019-07-14 17:27:50.464820，结束等待时间点：2019-07-14 17:27:50.515685，等待时长为：0:00:00.050865 - [basepage.py:33 ]
+2019-07-14 17:27:50,516 -  web_pytest.common.basepage -INFO - 查找 输入手机号 中的元素 ('xpath', '//input[@type="text"and@name="account"]')  - [basepage.py:48 ]
+2019-07-14 17:27:50,529 -  web_pytest.common.basepage -INFO -  给元素 ('xpath', '//input[@type="text"and@name="account"]') 输入文本内容:('17625188013',) - [basepage.py:89 ]
+2019-07-14 17:27:50,648 -  web_pytest.common.basepage -INFO - 等待元素 ('xpath', '//input[@type="password"]') 可见。 - [basepage.py:25 ]
+2019-07-14 17:27:50,693 -  web_pytest.common.basepage -INFO - 开始等待时间点：2019-07-14 17:27:50.649326，结束等待时间点：2019-07-14 17:27:50.693211，等待时长为：0:00:00.043885 - [basepage.py:33 ]
+2019-07-14 17:27:50,694 -  web_pytest.common.basepage -INFO - 查找 输入密码 中的元素 ('xpath', '//input[@type="password"]')  - [basepage.py:48 ]
+2019-07-14 17:27:50,705 -  web_pytest.common.basepage -INFO -  给元素 ('xpath', '//input[@type="password"]') 输入文本内容:('woaini1314',) - [basepage.py:89 ]
+2019-07-14 17:27:50,847 -  web_pytest.common.basepage -INFO - 等待元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]') 可见。 - [basepage.py:25 ]
+2019-07-14 17:27:50,887 -  web_pytest.common.basepage -INFO - 开始等待时间点：2019-07-14 17:27:50.847796，结束等待时间点：2019-07-14 17:27:50.887690，等待时长为：0:00:00.039894 - [basepage.py:33 ]
+2019-07-14 17:27:50,887 -  web_pytest.common.basepage -INFO - 查找 点击登录 中的元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]')  - [basepage.py:48 ]
+2019-07-14 17:27:50,896 -  web_pytest.common.basepage -INFO -  点击元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]') - [basepage.py:72 ]
+2019-07-14 17:27:50,990 -  web_pytest.common.basepage -INFO - 等待元素 ('xpath', '//a[@class="close"]') 可见。 - [basepage.py:25 ]
+2019-07-14 17:28:21,458 -  web_pytest.common.basepage -ERROR - 等待元素可见失败： - [basepage.py:36 ]
+Traceback (most recent call last):
+  File "F:\框架\web_pytest\common\basepage.py", line 29, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-07-14 17:28:21,815 -  web_pytest.common.basepage -INFO - 网页截图成功。图片存储在：F:\框架\web_unittest\Outputs/screenshots/关闭弹框_2019-07-14 17_28_21.png - [basepage.py:138 ]
+2019-07-14 17:28:22,069 -  web_pytest.common.basepage -INFO - 等待元素 ('xpath', '//input[@type="text"and@name="account"]') 可见。 - [basepage.py:25 ]
+2019-07-14 17:28:22,102 -  web_pytest.common.basepage -INFO - 开始等待时间点：2019-07-14 17:28:22.069167，结束等待时间点：2019-07-14 17:28:22.102080，等待时长为：0:00:00.032913 - [basepage.py:33 ]
+2019-07-14 17:28:22,102 -  web_pytest.common.basepage -INFO - 查找 输入手机号 中的元素 ('xpath', '//input[@type="text"and@name="account"]')  - [basepage.py:48 ]
+2019-07-14 17:28:22,112 -  web_pytest.common.basepage -INFO -  给元素 ('xpath', '//input[@type="text"and@name="account"]') 输入文本内容:('17625188013',) - [basepage.py:89 ]
+2019-07-14 17:28:22,248 -  web_pytest.common.basepage -INFO - 等待元素 ('xpath', '//input[@type="password"]') 可见。 - [basepage.py:25 ]
+2019-07-14 17:28:22,280 -  web_pytest.common.basepage -INFO - 开始等待时间点：2019-07-14 17:28:22.249686，结束等待时间点：2019-07-14 17:28:22.280604，等待时长为：0:00:00.030918 - [basepage.py:33 ]
+2019-07-14 17:28:22,280 -  web_pytest.common.basepage -INFO - 查找 输入密码 中的元素 ('xpath', '//input[@type="password"]')  - [basepage.py:48 ]
+2019-07-14 17:28:22,289 -  web_pytest.common.basepage -INFO -  给元素 ('xpath', '//input[@type="password"]') 输入文本内容:('woaini@1314',) - [basepage.py:89 ]
+2019-07-14 17:28:22,401 -  web_pytest.common.basepage -INFO - 等待元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]') 可见。 - [basepage.py:25 ]
+2019-07-14 17:28:22,431 -  web_pytest.common.basepage -INFO - 开始等待时间点：2019-07-14 17:28:22.401280，结束等待时间点：2019-07-14 17:28:22.431200，等待时长为：0:00:00.029920 - [basepage.py:33 ]
+2019-07-14 17:28:22,431 -  web_pytest.common.basepage -INFO - 查找 点击登录 中的元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]')  - [basepage.py:48 ]
+2019-07-14 17:28:22,441 -  web_pytest.common.basepage -INFO -  点击元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]') - [basepage.py:72 ]
+2019-07-14 17:28:22,493 -  web_pytest.common.basepage -INFO - 等待元素 ('xpath', '//a[@class="close"]') 可见。 - [basepage.py:25 ]

@@ -1,0 +1,8 @@
+automationName: UiAutomator2
+platformName: Android
+platformVersion: 5.1
+deviceName: Android Emulator
+appPackage: com.lemon.lemonban
+appActivity: com.lemon.lemonban.activity.WelcomeActivity
+noReset: True
+

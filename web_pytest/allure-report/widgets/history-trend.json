@@ -1,0 +1,25 @@
+[ {
+  "buildOrder" : 8,
+  "reportUrl" : "http://192.168.100.106:8080/job/web_pytest/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 3,
+    "unknown" : 0,
+    "total" : 3
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://192.168.100.106:8080/job/web_pytest/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 3,
+    "unknown" : 0,
+    "total" : 3
+  }
+} ]

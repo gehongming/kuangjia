@@ -1,0 +1,9 @@
+INFO     api_pytst.testcases.test_2register:test_2register.py:25 开始测试第6条：验证码超时
+INFO     api_pytst.testcases.test_2register:test_2register.py:33 IP是:192.86.1.49
+INFO     api_pytst.testcases.test_2register:test_2register.py:40 uesename是徐莹
+INFO     api_pytst.testcases.test_2register:test_2register.py:49 请求数据是:{"verify_code":"chaoshi_code","user_id":"徐莹","channel_id":"1","pwd":"123456","ip": "192.86.1.49", "mobile":"chaoshi_phone"}
+INFO     api_pytst.testcases.test_2register:test_2register.py:57 请求数据是:{'case_id': 6, 'title': '验证码超时', 'url': 'finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl', 'data': '{"verify_code":"056686","user_id":"徐莹","channel_id":"1","pwd":"123456","ip": "192.86.1.49", "mobile":"18016164321"}', 'method': 'userRegister', 'expected': '验证码已过期', 'result': 'Pass', 'check_sql': "{'sql1':'SELECT * FROM sms_db_21.t_mvcode_info_3 ORDER BY Fsend_time ASC LIMIT 1'}"}
+INFO     api_pytst.testcases.test_2register:test_2register.py:60 请求是:{'case_id': 6, 'title': '验证码超时', 'url': 'finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl', 'data': '{"verify_code":"056686","user_id":"徐莹","channel_id":"1","pwd":"123456","ip": "192.86.1.49", "mobile":"18016164321"}', 'method': 'userRegister', 'expected': '验证码已过期', 'result': 'Pass', 'check_sql': "{'sql1':'SELECT * FROM sms_db_21.t_mvcode_info_3 ORDER BY Fsend_time ASC LIMIT 1'}"}
+INFO     api_pytst.testcases.test_2register:test_2register.py:62 实际值:验证码已过期
+INFO     api_pytst.testcases.test_2register:test_2register.py:91 响应结果是：Pass
+INFO     api_pytst.testcases.test_2register:test_2register.py:93 结束测试：验证码超时

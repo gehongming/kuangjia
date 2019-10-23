@@ -1,0 +1,22 @@
+INFO     web_pytest.common.basepage:basepage.py:25 等待元素 ('xpath', '//input[@type="text"and@name="account"]') 可见。
+INFO     web_pytest.common.basepage:basepage.py:33 开始等待时间点：2019-07-14 17:31:45.723483，结束等待时间点：2019-07-14 17:31:45.777339，等待时长为：0:00:00.053856
+INFO     web_pytest.common.basepage:basepage.py:48 查找 输入手机号 中的元素 ('xpath', '//input[@type="text"and@name="account"]') 
+INFO     web_pytest.common.basepage:basepage.py:89  给元素 ('xpath', '//input[@type="text"and@name="account"]') 输入文本内容:('17625188013',)
+INFO     web_pytest.common.basepage:basepage.py:25 等待元素 ('xpath', '//input[@type="password"]') 可见。
+INFO     web_pytest.common.basepage:basepage.py:33 开始等待时间点：2019-07-14 17:31:45.914972，结束等待时间点：2019-07-14 17:31:45.964837，等待时长为：0:00:00.049865
+INFO     web_pytest.common.basepage:basepage.py:48 查找 输入密码 中的元素 ('xpath', '//input[@type="password"]') 
+INFO     web_pytest.common.basepage:basepage.py:89  给元素 ('xpath', '//input[@type="password"]') 输入文本内容:('woaini1314',)
+INFO     web_pytest.common.basepage:basepage.py:25 等待元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]') 可见。
+INFO     web_pytest.common.basepage:basepage.py:33 开始等待时间点：2019-07-14 17:31:46.149346，结束等待时间点：2019-07-14 17:31:46.192230，等待时长为：0:00:00.042884
+INFO     web_pytest.common.basepage:basepage.py:48 查找 点击登录 中的元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]') 
+INFO     web_pytest.common.basepage:basepage.py:72  点击元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]')
+INFO     web_pytest.common.basepage:basepage.py:25 等待元素 ('xpath', '//a[@class="close"]') 可见。
+ERROR    web_pytest.common.basepage:basepage.py:36 等待元素可见失败：
+Traceback (most recent call last):
+  File "F:\框架\web_pytest\common\basepage.py", line 29, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     web_pytest.common.basepage:basepage.py:138 网页截图成功。图片存储在：F:\框架\web_unittest\Outputs/screenshots/关闭弹框_2019-07-14 17_32_16.png

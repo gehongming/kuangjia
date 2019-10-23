@@ -1,0 +1,60 @@
+2019-07-14 17:22:18,673 -  web_pytest.common.basepage -INFO - 等待元素 ('xpath', '//input[@type="text"and@name="account"]') 可见。 - [basepage.py:25 ]
+2019-07-14 17:22:18,674 -  web_pytest.common.basepage -ERROR - 等待元素可见失败： - [basepage.py:36 ]
+Traceback (most recent call last):
+  File "F:\框架\web_pytest\common\basepage.py", line 29, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+AttributeError: 'str' object has no attribute 'find_element'
+2019-07-14 17:22:18,684 -  web_pytest.common.basepage -ERROR - 网页截屏失败！ - [basepage.py:140 ]
+Traceback (most recent call last):
+  File "F:\框架\web_pytest\common\basepage.py", line 29, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+AttributeError: 'str' object has no attribute 'find_element'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\框架\web_pytest\common\basepage.py", line 137, in save_web_screenshot
+    self.driver.save_screenshot(screenshot_dir +"/" + filepath)
+AttributeError: 'str' object has no attribute 'save_screenshot'
+2019-07-14 17:22:19,178 -  web_pytest.common.basepage -INFO - 等待元素 ('xpath', '//input[@type="text"and@name="account"]') 可见。 - [basepage.py:25 ]
+2019-07-14 17:22:19,178 -  web_pytest.common.basepage -ERROR - 等待元素可见失败： - [basepage.py:36 ]
+Traceback (most recent call last):
+  File "F:\框架\web_pytest\common\basepage.py", line 29, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+AttributeError: 'str' object has no attribute 'find_element'
+2019-07-14 17:22:19,180 -  web_pytest.common.basepage -ERROR - 网页截屏失败！ - [basepage.py:140 ]
+Traceback (most recent call last):
+  File "F:\框架\web_pytest\common\basepage.py", line 29, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+AttributeError: 'str' object has no attribute 'find_element'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\框架\web_pytest\common\basepage.py", line 137, in save_web_screenshot
+    self.driver.save_screenshot(screenshot_dir +"/" + filepath)
+AttributeError: 'str' object has no attribute 'save_screenshot'

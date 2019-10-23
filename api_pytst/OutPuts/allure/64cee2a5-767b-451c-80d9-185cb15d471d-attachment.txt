@@ -1,0 +1,7 @@
+INFO     api_pytst.testcases.test_2register:test_2register.py:25 开始测试第5条：验证码为空
+INFO     api_pytst.testcases.test_2register:test_2register.py:33 IP是:125.125.188.165
+INFO     api_pytst.testcases.test_2register:test_2register.py:49 请求数据是:{"verify_code":"","user_id":"user_name","channel_id":"1","pwd":"123456","ip": "125.125.188.165", "mobile":"18539456321"}
+INFO     api_pytst.testcases.test_2register:test_2register.py:60 请求是:{'case_id': 5, 'title': '验证码为空', 'url': 'finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl', 'data': '{"verify_code":"","user_id":"user_name","channel_id":"1","pwd":"123456","ip": "125.125.188.165", "mobile":"18539456321"}', 'method': 'userRegister', 'expected': '验证码错误', 'result': 'Pass', 'check_sql': None}
+INFO     api_pytst.testcases.test_2register:test_2register.py:62 实际值:验证码错误
+INFO     api_pytst.testcases.test_2register:test_2register.py:91 响应结果是：Pass
+INFO     api_pytst.testcases.test_2register:test_2register.py:93 结束测试：验证码为空

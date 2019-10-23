@@ -1,0 +1,9 @@
+INFO     api_pytst.testcases.test_2register:test_2register.py:25 开始测试第1条：成功发送短信验证码
+INFO     api_pytst.testcases.test_2register:test_2register.py:28 手机号是：18539456321
+INFO     api_pytst.testcases.test_2register:test_2register.py:33 IP是:192.175.127.80
+INFO     api_pytst.testcases.test_2register:test_2register.py:60 请求是:{'case_id': 1, 'title': '成功发送短信验证码', 'url': 'sms-service-war-1.0/ws/smsFacade.ws?wsdl', 'data': "{'client_ip': '192.175.127.80', 'mobile':'18539456321', 'tmpl_id': 1}", 'method': 'sendMCode', 'expected': 'ok', 'result': 'Pass', 'check_sql': "{'sql1':'SELECT * FROM sms_db_21.t_mvcode_info_3 ORDER BY Fsend_time DESC'}"}
+INFO     api_pytst.testcases.test_2register:test_2register.py:62 实际值:ok
+INFO     api_pytst.testcases.test_2register:test_2register.py:68 执行sql语句:SELECT * FROM sms_db_21.t_mvcode_info_3 ORDER BY Fsend_time DESC
+INFO     api_pytst.testcases.test_2register:test_2register.py:70 验证码:606894
+INFO     api_pytst.testcases.test_2register:test_2register.py:91 响应结果是：Pass
+INFO     api_pytst.testcases.test_2register:test_2register.py:93 结束测试：成功发送短信验证码

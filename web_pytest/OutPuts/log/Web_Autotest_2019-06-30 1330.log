@@ -1,0 +1,36 @@
+2019-06-30 13:30:54,009 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//input[@type="text"and@name="account"]') 可见。 - [basepage.py:30 ]
+2019-06-30 13:30:54,048 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 13:30:54.010371，结束等待时间点：2019-06-30 13:30:54.048257，等待时长为：0:00:00.037886 - [basepage.py:38 ]
+2019-06-30 13:30:54,048 -  work_pytest.common.basepage -INFO - 查找 输入手机号 中的元素 ('xpath', '//input[@type="text"and@name="account"]')  - [basepage.py:53 ]
+2019-06-30 13:30:54,057 -  work_pytest.common.basepage -INFO -  给元素 ('xpath', '//input[@type="text"and@name="account"]') 输入文本内容:('17625188013',) - [basepage.py:93 ]
+2019-06-30 13:30:54,153 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//input[@type="password"]') 可见。 - [basepage.py:30 ]
+2019-06-30 13:30:54,185 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 13:30:54.153977，结束等待时间点：2019-06-30 13:30:54.185890，等待时长为：0:00:00.031913 - [basepage.py:38 ]
+2019-06-30 13:30:54,185 -  work_pytest.common.basepage -INFO - 查找 输入密码 中的元素 ('xpath', '//input[@type="password"]')  - [basepage.py:53 ]
+2019-06-30 13:30:54,194 -  work_pytest.common.basepage -INFO -  给元素 ('xpath', '//input[@type="password"]') 输入文本内容:('woaini@1314',) - [basepage.py:93 ]
+2019-06-30 13:30:54,323 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]') 可见。 - [basepage.py:30 ]
+2019-06-30 13:30:54,353 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 13:30:54.323523，结束等待时间点：2019-06-30 13:30:54.353443，等待时长为：0:00:00.029920 - [basepage.py:38 ]
+2019-06-30 13:30:54,354 -  work_pytest.common.basepage -INFO - 查找 点击登录 中的元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]')  - [basepage.py:53 ]
+2019-06-30 13:30:54,363 -  work_pytest.common.basepage -INFO -  点击元素 ('xpath', '//div[@class="padding-cont pt-login"]//a[@class="btn-btn"]') - [basepage.py:76 ]
+2019-06-30 13:30:54,566 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//a[@class="close"]') 可见。 - [basepage.py:30 ]
+2019-06-30 13:30:57,882 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 13:30:54.567874，结束等待时间点：2019-06-30 13:30:57.882010，等待时长为：0:00:03.314136 - [basepage.py:38 ]
+2019-06-30 13:30:57,882 -  work_pytest.common.basepage -INFO - 查找 关闭弹框 中的元素 ('xpath', '//a[@class="close"]')  - [basepage.py:53 ]
+2019-06-30 13:30:57,891 -  work_pytest.common.basepage -INFO -  点击元素 ('xpath', '//a[@class="close"]') - [basepage.py:76 ]
+2019-06-30 13:30:58,082 -  work_pytest.common.basepage -INFO - 等待元素 ('xpath', '//a[@title="Python全栈第15期"and text()="Python全栈第15期"]') 可见。 - [basepage.py:30 ]
+2019-06-30 13:30:58,134 -  work_pytest.common.basepage -INFO - 开始等待时间点：2019-06-30 13:30:58.083472，结束等待时间点：2019-06-30 13:30:58.134335，等待时长为：0:00:00.050863 - [basepage.py:38 ]
+2019-06-30 13:30:58,135 -  work_pytest.common.basepage -INFO - 查找 进入班级 中的元素 ('xpath', '//a[@title="Python全栈第15期"and text()="Python全栈第15期"]')  - [basepage.py:53 ]
+2019-06-30 13:30:58,146 -  work_pytest.common.basepage -INFO -  点击元素 ('xpath', '//a[@title="Python全栈第15期"and text()="Python全栈第15期"]') - [basepage.py:76 ]
+2019-06-30 13:30:58,204 -  work_pytest.common.basepage -ERROR - 点击元素失败 - [basepage.py:81 ]
+Traceback (most recent call last):
+  File "D:\py-15\作业\work_pytest\common\basepage.py", line 78, in click_element
+    ele.click()
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href="/Course/Homework/courseid/MDAwMDAwMDAwMLOspd2Gz79r.html" data-id="MDAwMDAwMDAwMLOspd2Gz79r" class="jumptoclass" title="...">Python全栈第15期</a> is not clickable at point (459, 169). Other element would receive the click: <li class="notifyV2-item clearfix type-red" data-id="MDAwMDAwMDAwMLOsud2Iubeyhbh2oQ">...</li>
+  (Session info: chrome=75.0.3770.100)
+
+2019-06-30 13:30:58,716 -  work_pytest.common.basepage -INFO - 网页截图成功。图片存储在：D:\py-15\作业\work_pytest\Outputs\screenshots/进入班级_2019-06-30 13_30_58.png - [basepage.py:143 ]
