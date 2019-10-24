@@ -6,15 +6,30 @@ from api_unittest.common.config import config
 
 
 class HttpCookies:
-    def http_request(self,url,data,method,cookies=None,json=None):
+    def http_request(self,url,data,method,cookies=None,json=None,headers=None,verify=None):
+        '''
+        :param url: 地址
+        :param data: 数据
+        :param method: 请求方式
+        :param cookies:
+        :param json: 为json格式的时候为True
+        :param headers: 请求头字典格式
+        :param verify: https格式时为False
+        :return:
+            url = 'https://api.yjq.com/account/anyms/send-vfcode'
+            main = {"phone":"17625188013"}
+            heardes={"Content-Type": "application/json","sign":"1234"}
+            b=HttpsCookies().https_request(url,main,method='post',json=True,headers=heardes)
+            print(b)
+        '''
         url=config.get('api','pre_url')+url #url拼接
         if method.lower()=='get':
-            resp=requests.get(url=url,params=data,cookies=cookies)
+            resp=requests.get(url=url,params=data,cookies=cookies,headers=headers,verify=verify)
         elif method.lower()=='post':
             if json:
-               resp=requests.post(url=url,json=data,cookies=cookies)
+               resp=requests.post(url=url,json=data,cookies=cookies,headers=headers,verify=verify)
             else:
-               resp=requests.post(url=url,data=data,cookies=cookies)
+               resp=requests.post(url=url,data=data,cookies=cookies,headers=headers,verify=verify)
         # print ('''响应报文:{}
         # 响应头:{}
         # 状态码:{}
@@ -23,40 +38,22 @@ class HttpCookies:
         # .format(resp.text
         #         ,resp.headers,resp.status_code,resp.cookies,resp.request._cookies))
         return (resp.text)
-class HttpsCookies:
-    def https_request(self,url,data,method,cookies=None,json=None):
-        url=config.get('api','pre_url')+url #url拼接
-        if method.lower()=='get':
-            resp=requests.get(url=url,params=data,cookies=cookies,verify=False)
-        elif method.lower()=='post':
-            if json:
-               resp=requests.post(url=url,json=data,cookies=cookies,verify=False)
-            else:
-               resp=requests.post(url=url,data=data,cookies=cookies,verify=False)
-        # print ('''响应报文:{}
-        # 响应头:{}
-        # 状态码:{}
-        # 响应cookie:{}
-        # 请求cookies:{}'''
-        # .format(resp.text
-        #         ,resp.headers,resp.status_code,resp.cookies,resp.request._cookies))
-        return (resp.text)
+
 
 class HttpSessions:
     def __init__(self):
         # 打开一个session
         self.session = requests.sessions.session()
 
-    def http_request(self, method, url, data=None, json=None):
+    def http_request(self, method, url, data=None, json=None,headers=None,verify=None):
         url = config.get('api', 'pre_url') + url
         if method.lower() == 'get':
-            resp = self.session.request(method=method, url=url, params=data)
+            resp = self.session.request(method=method, url=url, params=data,headers=headers,verify=verify)
         elif method.lower() == 'post':
             if json:
-                resp = self.session.request(method=method, url=url, json=data)
+                resp = self.session.request(method=method, url=url, json=data,headers=headers,verify=verify)
             else:
-                resp = self.session.request(method=method, url=url, data=data)
-
+                resp = self.session.request(method=method, url=url, data=data,hheaders=headers,verify=verify)
         else:
             print('UN-support method')
         return (resp.text)
@@ -67,35 +64,9 @@ class HttpSessions:
         # 请求cookies:{}'''
         #       .format(resp.text
         #               , resp.headers, resp.status_code, resp.cookies, resp.request._cookies))
-
-
     def close(self):
         self.session.close()
-class HttpsSessions:
-    def __init__(self):
-        # 打开一个session
-        self.session = requests.sessions.session()
 
-    def https_request(self, method, url, data=None, json=None):
-        url = config.get('api', 'pre_url') + url
-        if method.lower() == 'get':
-            resp = self.session.request(method=method, url=url, params=data,verify=False)
-        elif method.lower() == 'post':
-            if json:
-                resp = self.session.request(method=method, url=url, json=data,verify=False)
-            else:
-                resp = self.session.request(method=method, url=url, data=data,verify=False)
-
-        else:
-            print('UN-support method')
-        return (resp.text)
-        # print('''响应报文:{}
-        # 响应头:{
-        # 状态码:{}
-        # 响应cookie:{}
-        # 请求cookies:{}'''
-        #       .format(resp.text
-        #               , resp.headers, resp.status_code, resp.cookies, resp.request._cookies))
 if __name__=='__main__':
 #注册
   # url = 'http://test.lemonban.com/futureloan/mvc/api/member/register'
