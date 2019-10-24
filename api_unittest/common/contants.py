@@ -19,7 +19,7 @@ test_file = os.path.join(base_dir, 'config', 'test.conf')
 
 
 #测试excel
-case_file=os.path.join(base_dir,'data','testcase.xlsx')
+case_file=os.path.join(base_dir,'data','testcase1.xlsx')
 # print(case_file)
 #测试目录
 case_dir=os.path.join(base_dir,'testcases')
