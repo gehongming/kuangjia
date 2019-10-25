@@ -78,10 +78,10 @@ class RegisterCase(unittest.TestCase):
                 # print(context.Context.verify_code)
 
             if title == '注册成功':
-                sql=eval(check_sql)['sql2']
-                sql=context.replace(sql,"user_name",str(user_name))
-                logger.info('执行的sql{}'.format(sql))
 
+                sql = eval(check_sql)['sql2']
+                sql = context.replace(sql, "user_name", str(user_name))
+                logger.info('执行的sql{}'.format(sql))
                 sql_res=self.mysql.fetch_one_dict(sql)
                 Fuid=sql_res['Fuid']
                 logger.info('sql执行结果Fuid:{}'.format(Fuid))

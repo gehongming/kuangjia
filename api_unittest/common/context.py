@@ -16,7 +16,7 @@ class Context:
             try:
                 v=config.get('data',g) # 根据KEY取配置文件里面的值
             except configparser.NoOptionError as e:
-                if hasattr(Context,g):
+                if hasattr(Context,g):                  #Context是否有属性g
                     v=getattr(Context,g)
                 else:
                     print('找不到参数化的值')
@@ -24,6 +24,13 @@ class Context:
             # print(v)
             data = re.sub(self.p, v, data, count=1)  # 替换
         return data
+def replace(para,old,new):
+    if para.find(old) != -1:  #para中找到old
+        # print(para.find(old))
+        data = para.replace(old, new)
+        return data
+    else:
+        return para
 
 if __name__ == '__main__':
     data='{"mobilephone":"#normal_user#","pwd":"#normal_pwd#"}'

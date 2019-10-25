@@ -27,7 +27,7 @@ class Context:
         return data
 
 def replace(para,old,new):
-    if para.find(old) != -1:
+    if para.find(old) != -1:  #para中找到old
         # print(para.find(old))
         data = para.replace(old, new)
         return data
