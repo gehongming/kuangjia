@@ -5,7 +5,6 @@
 # Time: 2019/6/18
 
 from app_framework.Common import logger
-import logging
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -25,24 +24,24 @@ class BasePage:
         self.driver = driver
     #等待元素可见
     def wait_eleVisible(self,loc,img_doc="",timeout=30,frequency=0.5):
-        logging.info("等待元素 {} 可见。".format(loc))
+        logger.info("等待元素 {} 可见。".format(loc))
         try:
             # 起始等待的时间 datetime
             start = datetime.datetime.now()
             WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
             # 结束等待的时间
             end = datetime.datetime.now()
-            logging.info("开始等待时间点：{}，结束等待时间点：{}，等待时长为：{}".
+            logger.info("开始等待时间点：{}，结束等待时间点：{}，等待时长为：{}".
                 format(start,end,end-start))
         except:
             # 日志
-            logging.exception("等待元素可见失败：")
+            logger.exception("等待元素可见失败：")
             # 截图 - 哪一个页面哪一个操作导致的失败。+ 当前时间
             self.save_web_screenshot(img_doc)
             raise
-    #等待元素存在
+    #等待元素存在，获取toast可用
     def wait_elePresence(self,loc,img_doc="",timeout=30,frequency=0.5):
-        logging.info("等待元素 {} 可见。".format(loc))
+        logger.info("等待元素 {} 可见。".format(loc))
         try:
             # 起始等待的时间 datetime
             start = datetime.datetime.now()
@@ -189,10 +188,10 @@ class BasePage:
     def get_toast(self, loc, img_doc, timeout=30, frequency=0.5):
         try:
             self.wait_elePresence(loc, img_doc, timeout, frequency)
-            logger.info('toast提示是,{}'.format(self.driver.find_element_by_xpath(loc).text))
+            logging.info('toast提示是,{}'.format(self.driver.find_element_by_xpath(loc).text))
             return self.driver.find_element_by_xpath(loc).text
         except:
-                logger.exception("没有获取 到toast信息！")
+                logging.exception("没有获取 到toast信息！")
                 self.save_web_screenshot(img_doc)
 # 切换到webview - context
 # 获取当前的contexts

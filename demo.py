@@ -7,15 +7,28 @@
 
 
 
-a=(0,1,3)
+class Person(object):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self.weight = 'weight'
+
+    def talk(self):
+        print("person is talking....")
 
 
+class Chinese(Person):
+    def __init__(self, name, age, language):
+        Person.__init__(self, name, age)
+        self.language = language
+        print(self.name, self.age, self.weight, self.language)
 
-print(a[1])
+    def talk(self):  # 子类 重构方法
+        print('%s is speaking chinese' % self.name)
 
-def demo(a,b):
-    a=3
-    b=4
-    return (a,b)
+    def walk(self):
+        print('is walking...')
 
-print(demo(1,2)[1])
+
+c = Chinese('bigberg', 22, 'Chinese')
+c.talk()

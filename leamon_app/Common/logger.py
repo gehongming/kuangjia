@@ -7,7 +7,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import os
 import time
-from Common import dir_config
+from leamon_app.Common import dir_config
 
 fmt = " %(asctime)s  %(levelname)s %(filename)s %(funcName)s [ line:%(lineno)d ] %(message)s"
 datefmt = '%a, %d %b %Y %H:%M:%S'

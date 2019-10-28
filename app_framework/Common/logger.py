@@ -21,4 +21,8 @@ handler_2 = RotatingFileHandler(dir_config.logs_dir+"/APP_Autotest_{0}.log".form
 #设置rootlogger 的输出内容形式，输出渠道
 logging.basicConfig(format=fmt,datefmt=datefmt,level=logging.INFO,handlers=[handler_1,handler_2])
 
-logging.info("hehehe")
+# logging.info("hehehe")
+if __name__ == '__main__':
+    from leamon_app.Common import logger
+    logging.info('haha')
+
