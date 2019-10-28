@@ -188,7 +188,7 @@ class BasePage:
     def get_toast(self, loc, img_doc, timeout=30, frequency=0.5):
         try:
             self.wait_elePresence(loc, img_doc, timeout, frequency)
-            logger.logging.nfo('toast提示是,{}'.format(self.driver.find_element_by_xpath(loc).text))
+            logger.logging.info('toast提示是,{}'.format(self.driver.find_element_by_xpath(loc).text))
             return self.driver.find_element_by_xpath(loc).text
         except:
             logger.logging.exception("没有获取 到toast信息！")
