@@ -24,35 +24,35 @@ class BasePage:
         self.driver = driver
     #等待元素可见
     def wait_eleVisible(self,loc,img_doc="",timeout=30,frequency=0.5):
-        logger.info("等待元素 {} 可见。".format(loc))
+        logger.logging.info("等待元素 {} 可见。".format(loc))
         try:
             # 起始等待的时间 datetime
             start = datetime.datetime.now()
             WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
             # 结束等待的时间
             end = datetime.datetime.now()
-            logger.info("开始等待时间点：{}，结束等待时间点：{}，等待时长为：{}".
+            logger.logging.info("开始等待时间点：{}，结束等待时间点：{}，等待时长为：{}".
                 format(start,end,end-start))
         except:
             # 日志
-            logger.exception("等待元素可见失败：")
+            logger.logging.exception("等待元素可见失败：")
             # 截图 - 哪一个页面哪一个操作导致的失败。+ 当前时间
             self.save_web_screenshot(img_doc)
             raise
     #等待元素存在，获取toast可用
     def wait_elePresence(self,loc,img_doc="",timeout=30,frequency=0.5):
-        logger.info("等待元素 {} 可见。".format(loc))
+        logger.logging.info("等待元素 {} 可见。".format(loc))
         try:
             # 起始等待的时间 datetime
             start = datetime.datetime.now()
             WebDriverWait(self.driver,timeout,frequency).until(EC.presence_of_element_located(loc))
             # 结束等待的时间
             end = datetime.datetime.now()
-            logging.info("开始等待时间点：{}，结束等待时间点：{}，等待时长为：{}".
+            logger.logging.info("开始等待时间点：{}，结束等待时间点：{}，等待时长为：{}".
                 format(start,end,end-start))
         except:
             # 日志
-            logging.exception("等待元素可见失败：")
+            logger.logging.exception("等待元素可见失败：")
             # 截图 - 哪一个页面哪一个操作导致的失败。+ 当前时间
             self.save_web_screenshot(img_doc)
             raise
@@ -64,13 +64,13 @@ class BasePage:
         :param img_doc: 截图的说明。例如：登陆页面_输入用户名
         :return: WebElement对象。
         """
-        logging.info("查找 {} 中的元素 {} ".format(img_doc,loc))
+        logger.logging.info("查找 {} 中的元素 {} ".format(img_doc,loc))
         try:
             ele = self.driver.find_element(*loc)
             return ele
         except:
             # 日志
-            logging.exception("查找元素失败")
+            logger.logging.exception("查找元素失败")
             # 截图
             self.save_web_screenshot(img_doc)
             raise
@@ -87,12 +87,12 @@ class BasePage:
         # 2、找元素
         ele = self.get_element(loc,img_doc)
         # 3、再操作
-        logging.info(" 点击元素 {}".format(loc))
+        logger.logging.info(" 点击元素 {}".format(loc))
         try:
             ele.click()
         except:
             # 日志
-            logging.exception("点击元素失败")
+            logger.logging.exception("点击元素失败")
             # 截图
             self.save_web_screenshot(img_doc)
             raise
@@ -104,12 +104,12 @@ class BasePage:
         # 2、找元素
         ele = self.get_element(loc,img_doc)
         # 3、再操作
-        logging.info(" 给元素 {} 输入文本内容:{}".format(loc,args))
+        logger.logging.info(" 给元素 {} 输入文本内容:{}".format(loc,args))
         try:
             ele.send_keys(*args)
         except:
             # 日志
-            logging.exception("元素输入操作失败")
+            logger.logging.exception("元素输入操作失败")
             # 截图
             self.save_web_screenshot(img_doc)
             raise
@@ -124,11 +124,11 @@ class BasePage:
         # 获取属性
         try:
             attr_value =  ele.get_attribute(attr_name)
-            logging.info("获取元素 {} 的属性 {} 值为:{}".format(loc, attr_name,attr_value))
+            logger.logging.info("获取元素 {} 的属性 {} 值为:{}".format(loc, attr_name,attr_value))
             return attr_value
         except:
             # 日志
-            logging.exception("获取元素属性失败")
+            logger.logging.exception("获取元素属性失败")
             # 截图
             self.save_web_screenshot(img_doc)
             raise
@@ -141,11 +141,11 @@ class BasePage:
         # 获取属性
         try:
             text = ele.text
-            logging.info("获取元素 {} 的文件值为:{}".format(loc, text))
+            logger.logging.info("获取元素 {} 的文件值为:{}".format(loc, text))
             return text
         except:
             # 日志
-            logging.exception("获取元素文本值失败")
+            logger.logging.exception("获取元素文本值失败")
             # 截图
             self.save_web_screenshot(img_doc)
             raise
@@ -158,9 +158,9 @@ class BasePage:
         filepath = "{}_{}.png".format(img_doc,now)
         try:
             self.driver.save_screenshot(screenshot_dir +"/" + filepath)
-            logging.info("网页截图成功。图片存储在：{}".format(screenshot_dir +"/" + filepath))
+            logger.logging.info("网页截图成功。图片存储在：{}".format(screenshot_dir +"/" + filepath))
         except:
-            logging.exception("网页截屏失败！")
+            logger.logging.exception("网页截屏失败！")
 
 
     # 获取窗口的大小
@@ -188,11 +188,11 @@ class BasePage:
     def get_toast(self, loc, img_doc, timeout=30, frequency=0.5):
         try:
             self.wait_elePresence(loc, img_doc, timeout, frequency)
-            logging.info('toast提示是,{}'.format(self.driver.find_element_by_xpath(loc).text))
+            logger.logging.nfo('toast提示是,{}'.format(self.driver.find_element_by_xpath(loc).text))
             return self.driver.find_element_by_xpath(loc).text
         except:
-                logging.exception("没有获取 到toast信息！")
-                self.save_web_screenshot(img_doc)
+            logger.logging.exception("没有获取 到toast信息！")
+            self.save_web_screenshot(img_doc)
 # 切换到webview - context
 # 获取当前的contexts
 

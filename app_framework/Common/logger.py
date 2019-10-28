@@ -24,5 +24,5 @@ logging.basicConfig(format=fmt,datefmt=datefmt,level=logging.INFO,handlers=[hand
 # logging.info("hehehe")
 if __name__ == '__main__':
     from leamon_app.Common import logger
-    logging.info('haha')
+    logger.logging.info('haha')
 
