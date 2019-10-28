@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d5ce11-0a7b-4804-b217-b2e7932ad51d" name="Default" comment="配置文件中测试用例名称修改">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app_framework/Common/dir_config.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app_framework/Common/logger.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app_framework/Outputs/Logs/APP_Autotest_2019-10-28 1806.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app_framework/Outputs/Logs/Web_Autotest_2019-09-19 1532.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app_framework/Outputs/Logs/Web_Autotest_2019-10-28 1759.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app_framework/Outputs/Reports/assets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app_framework/Outputs/Reports/report.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app_framework/Outputs/Screenshots/登陆页_输入用户名_2019-09-19 15_26_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app_framework/Outputs/Screenshots/页面上下滑动失败_2019-03-27-16-12-29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app_framework/Outputs/Screenshots/题库列表页面_等待题库列表可见_2019-09-19 15_08_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app_framework/main.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="c6d5ce11-0a7b-4804-b217-b2e7932ad51d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_framework/Common/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_framework/Common/contants.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_framework/Common/log.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_framework/TestCases/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_framework/TestCases/test_app.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_framework/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_framework/config/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_framework/config/global.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_framework/config/online.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/作业.iml" afterPath="$PROJECT_DIR$/.idea/作业.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_framework/Common/basepage.py" afterPath="$PROJECT_DIR$/app_framework/Common/basepage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_framework/Desired_Caps/caps.yaml" afterPath="$PROJECT_DIR$/app_framework/Desired_Caps/caps.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_framework/TestCases/conftest.py" afterPath="$PROJECT_DIR$/app_framework/TestCases/conftest.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -149,6 +142,17 @@
             <path>
               <item name="kuangjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="kuangjia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kuangjia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kuangjia" type="462c0819:PsiDirectoryNode" />
+              <item name="app_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kuangjia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kuangjia" type="462c0819:PsiDirectoryNode" />
+              <item name="app_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -536,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572256199433</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="配置文件中测试用例名称修改">
+      <created>1572262937743</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1572262937744</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -830,6 +841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
