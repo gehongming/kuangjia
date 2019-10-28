@@ -185,8 +185,15 @@ class BasePage:
             self.driver.swipe(size["width"] * 0.1, size["height"] * 0.5, size["width"] * 0.9, size["height"] * 0.5, duration)
 
 
-# toast获取
-
+    # toast获取
+    def get_toast(self, loc, img_doc, timeout=30, frequency=0.5):
+        try:
+            self.wait_elePresence(loc, img_doc, timeout, frequency)
+            logger.info('toast提示是,{}'.format(self.driver.find_element_by_xpath(loc).text))
+            return self.driver.find_element_by_xpath(loc).text
+        except:
+                logger.exception("没有获取 到toast信息！")
+                self.save_web_screenshot(img_doc)
 # 切换到webview - context
 # 获取当前的contexts
 
