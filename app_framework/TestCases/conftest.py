@@ -5,7 +5,7 @@
 # Time: 2019/7/8
 import pytest
 import yaml
-from app_framework.Common.dir_config import caps_dir
+from app_framework.Common.contants import caps_dir
 from appium import webdriver
 
 @pytest.fixture
@@ -34,7 +34,7 @@ def loginApp():
 def base_driver(noReset=True,port=4723,**kwargs):
     # 固定启动参数 - 字典
     # 读取yaml的数据文件
-    fs = open(caps_dir + "/caps.yaml", encoding="utf-8")
+    fs = open(caps_dir , encoding="utf-8")
     desired_caps = yaml.load(fs, Loader=yaml.BaseLoader)
     # 如果有更多的启动参数，动态添加。
     if noReset is False:
@@ -48,3 +48,4 @@ def base_driver(noReset=True,port=4723,**kwargs):
 
 
 #
+,
