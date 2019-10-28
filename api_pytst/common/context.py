@@ -14,6 +14,7 @@ class Context:
             # print(data)
             m=re.search(self.p,data)  # 从任意位置开始找，找第一个就返回Match object, 如果没有找None
             g=m.group(1)
+            print(g)
             try:
                 v=config.get('data',g) # 根据KEY取配置文件里面的值
             except configparser.NoOptionError as e:
@@ -35,13 +36,25 @@ def replace(para,old,new):
         return para
 
 if __name__ == '__main__':
+    # setattr(Context, "ghm", '123')
+    # print(hasattr(Context,'ghm'))
+    # v=getattr(Context, 'ghm')
+    # print(v)
+
+
+
+
+
+
+
+
     data1 = '{"mobilephone":"#normal_user#","pwd":"#normal_pwd#"}'
     a = Context()
     b = a.re_replace(data1)
     print(b)
-
-    data='{"mobilephone":"#register_phone#","pwd":"#verify_code#"}'
-    a=Context()
-    b=a.re_replace(data)
-    print(b)
+    #
+    # data='{"mobilephone":"#register_phone#","pwd":"#verify_code#"}'
+    # a=Context()
+    # b=a.re_replace(data)
+    # print(b)
 

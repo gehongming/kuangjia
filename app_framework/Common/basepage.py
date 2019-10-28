@@ -23,7 +23,7 @@ class BasePage:
 
     def __init__(self,driver):
         self.driver = driver
-
+    #等待元素可见
     def wait_eleVisible(self,loc,img_doc="",timeout=30,frequency=0.5):
         logging.info("等待元素 {} 可见。".format(loc))
         try:
@@ -40,7 +40,7 @@ class BasePage:
             # 截图 - 哪一个页面哪一个操作导致的失败。+ 当前时间
             self.save_web_screenshot(img_doc)
             raise
-
+    #等待元素存在
     def wait_elePresence(self,loc,img_doc="",timeout=30,frequency=0.5):
         logging.info("等待元素 {} 可见。".format(loc))
         try:
@@ -75,7 +75,7 @@ class BasePage:
             # 截图
             self.save_web_screenshot(img_doc)
             raise
-
+    #查找元素
     def click_element(self,loc,img_doc,timeout=30,frequency=0.5):
         """
         实现了，等待元素可见，找元素，然后再去点击元素。
@@ -164,9 +164,26 @@ class BasePage:
             logging.exception("网页截屏失败！")
 
 
-# 获取窗口的大小
+    # 获取窗口的大小
+    def get_device_size(self):
+        return self.driver.get_window_size()
 
-# 上下左右滑动 - up  down  left right
+    # 上下左右滑动 - up  down  left right
+    def swipe_by_direction(self, direct, duration=200):
+        """
+        :param direct: up - 向上滑 down - 向下滑  left - 向左滑  right - 向右滑
+        :return: None
+        """
+        size = self.get_device_size()
+        if direct.lower() == "up": # 向上滑动
+            self.driver.swipe(size["width"] * 0.5, size["height"] * 0.9, size["width"] * 0.5, size["height"] * 0.1,duration)
+        elif direct.lower() == "down": # 向下滑动
+            self.driver.swipe(size["width"] * 0.5, size["height"] * 0.1, size["width"] * 0.5, size["height"] * 0.9, duration)
+        elif direct.lower() == "left":  # 向左滑动
+            self.driver.swipe(size["width"] * 0.9, size["height"] * 0.5, size["width"] * 0.1, size["height"] * 0.5, duration)
+        elif direct.lower() == "right": # 向右滑动
+            self.driver.swipe(size["width"] * 0.1, size["height"] * 0.5, size["width"] * 0.9, size["height"] * 0.5, duration)
+
 
 # toast获取
 
