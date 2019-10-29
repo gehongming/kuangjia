@@ -2,7 +2,7 @@ import selenium
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as  EC
 from  selenium.webdriver.common.by import By
-from week_11.PageLocators.user_page_locator import UserPageLocator as up
+from web_unittest.PageLocators.user_page_locator import UserPageLocator as up
 class UserPage:
 
     # 属性

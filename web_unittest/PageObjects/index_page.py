@@ -3,7 +3,7 @@ from  selenium.webdriver.support import  expected_conditions as EC
 from  selenium.webdriver.common.by import  By
 import time
 
-from web_unittest.PageLocators.deom_locator import LoginPageLocator as loc
+from web_unittest.PageLocators.login_page_locator import LoginPageLocator as loc
 from web_unittest.PageLocators.user_page_locator import UserPageLocator as up
 from web_unittest.common.basepage import BasePage
 

@@ -1,6 +1,6 @@
 import selenium
 from  selenium.webdriver.common.by import By
-from web_unittest.PageLocators.deom_locator import LoginPageLocator as lc
+from web_unittest.PageLocators.login_page_locator import LoginPageLocator as lc
 from web_unittest.common.basepage import BasePage
 class LoginPage(BasePage):
 
