@@ -1,8 +1,8 @@
 #__author__="G"
 #date: 2019/4/24
 import logging
-from work_pytest.common import contants
-from work_pytest.common.config import config
+from app_framework.Common import contants
+from app_framework.Common.config import config
 import time
 
     # 新建一个日志收集器：getLogger() 新建一个收集器
