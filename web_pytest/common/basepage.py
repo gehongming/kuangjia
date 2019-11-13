@@ -37,7 +37,6 @@ class BasePage:
             # 截图 - 哪一个页面哪一个操作导致的失败。+ 当前时间
             self.save_web_screenshot(img_doc)
             raise
-
     # 查找一个元素
     def get_element(self,loc,img_doc=""):
         """
@@ -79,6 +78,26 @@ class BasePage:
             self.save_web_screenshot(img_doc)
             raise
 
+    # 直接点击元素
+    def click_element2(self, loc, img_doc, timeout=30, frequency=0.5):
+            """
+            实现了，点击元素。
+            :param loc:
+            :param img_doc:
+            :return:
+            """
+            # 1、找元素
+            ele = self.get_element(loc, img_doc)
+            # 2、再操作
+            logger.info(" 点击元素 {}".format(loc))
+            try:
+                ele.click()
+            except:
+                # 日志
+                logger.exception("点击元素失败")
+                # 截图
+                self.save_web_screenshot(img_doc)
+                raise
     # 文本输入
     def input_text(self,loc,img_doc,*args):
         # 1、等待元素可见
@@ -138,7 +157,6 @@ class BasePage:
             logger.info("网页截图成功。图片存储在：{}".format(screenshot_dir +"/" + filepath))
         except:
             logger.exception("网页截屏失败！")
-
 
     # windows切换
     def check_window(self,loc,img_doc):
@@ -216,3 +234,4 @@ class BasePage:
             logger.exception("上传文件失败")
             self.save_web_screenshot(img_doc)
             raise
+
