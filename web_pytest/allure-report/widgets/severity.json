@@ -1,30 +1,80 @@
 [ {
-  "uid" : "7dce39c7f655c905",
-  "name" : "test_1",
+  "uid" : "28cbb5218f07884",
+  "name" : "test_login2",
   "time" : {
-    "start" : 1561906932854,
-    "stop" : 1561906935672,
-    "duration" : 2818
+    "start" : 1574065607232,
+    "stop" : 1574065607340,
+    "duration" : 108
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6e4eb241ced6ce22",
+  "name" : "测试隐形眼镜加入购物车",
+  "time" : {
+    "start" : 1574065622892,
+    "stop" : 1574065634602,
+    "duration" : 11710
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "55b931ac33bd16e4",
-  "name" : "test_2",
+  "uid" : "c197ac0513cc6a37",
+  "name" : "测试定制片加入购物车",
   "time" : {
-    "start" : 1561906947014,
-    "stop" : 1561906951231,
-    "duration" : 4217
+    "start" : 1574065643495,
+    "stop" : 1574065654846,
+    "duration" : 11351
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b2017e7286cbee2",
-  "name" : "test_3",
+  "uid" : "18f46f721ca944dd",
+  "name" : "测试购物车结算",
   "time" : {
-    "start" : 1561906961698,
-    "stop" : 1561906966279,
-    "duration" : 4581
+    "start" : 1574065654863,
+    "stop" : 1574065663137,
+    "duration" : 8274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "247796b18ce9fe45",
+  "name" : "test_go_purchase_order",
+  "time" : {
+    "start" : 1574059216196,
+    "stop" : 1574059217339,
+    "duration" : 1143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4630b3d328c4b62e",
+  "name" : "测试取消订单",
+  "time" : {
+    "start" : 1574065663169,
+    "stop" : 1574065667706,
+    "duration" : 4537
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faea11e00207c5d8",
+  "name" : "测试护理液加入购物车",
+  "time" : {
+    "start" : 1574065634622,
+    "stop" : 1574065643485,
+    "duration" : 8863
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8dd9688c205ba5bc",
+  "name" : "测试登录正常",
+  "time" : {
+    "start" : 1574065850663,
+    "stop" : 1574065858150,
+    "duration" : 7487
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,0 +1,15 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "89950edd2d81f3b5dcc177de2f9f5fbf",
+    "name" : "每日用例-购买",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

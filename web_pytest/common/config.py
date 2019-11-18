@@ -1,6 +1,6 @@
 import configparser
 
-from web_pytest.common import contants
+from common import contants
 
 
 class ReadConfig:

@@ -1,0 +1,279 @@
+{
+  "uid" : "18f46f721ca944dd",
+  "name" : "测试购物车结算",
+  "fullName" : "Testcases.test_2buy.TestLogin#test_orders",
+  "historyId" : "1ea0a0fa53fe50fbf5bd97e61db4bb61",
+  "time" : {
+    "start" : 1574065654863,
+    "stop" : 1574065663137,
+    "duration" : 8274
+  },
+  "description" : "这是定制片加入购物车的成功用例",
+  "descriptionHtml" : "<p>这是定制片加入购物车的成功用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1574065607459,
+      "stop" : 1574065615171,
+      "duration" : 7712
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1574065607231,
+      "stop" : 1574065607231,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试开始",
+      "time" : {
+        "start" : 1574065607231,
+        "stop" : 1574065607231,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "这是定制片加入购物车的成功用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击进入购物车",
+      "time" : {
+        "start" : 1574065654863,
+        "stop" : 1574065655541,
+        "duration" : 678
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择商品，并结算",
+      "time" : {
+        "start" : 1574065657041,
+        "stop" : 1574065657561,
+        "duration" : 520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "生成订单",
+      "time" : {
+        "start" : 1574065659561,
+        "stop" : 1574065660121,
+        "duration" : 560
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "messaage",
+        "value" : "'网管查房'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d114084b0bbbb8f0",
+      "name" : "log",
+      "source" : "d114084b0bbbb8f0.txt",
+      "type" : "text/plain",
+      "size" : 2289
+    }, {
+      "uid" : "498291472d3922b7",
+      "name" : "stderr",
+      "source" : "498291472d3922b7.txt",
+      "type" : "text/plain",
+      "size" : 2848
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1574065667708,
+      "stop" : 1574065670844,
+      "duration" : 3136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试购物车结算"
+  }, {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "14096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dd8a02c2de06d2be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574064627960,
+        "stop" : 1574064636141,
+        "duration" : 8181
+      }
+    }, {
+      "uid" : "81474e6cda6ba505",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574063518060,
+        "stop" : 1574063641166,
+        "duration" : 123106
+      }
+    }, {
+      "uid" : "113c7da41c3abd96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574062514790,
+        "stop" : 1574062523120,
+        "duration" : 8330
+      }
+    }, {
+      "uid" : "e62b5b8725ea3fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574062353870,
+        "stop" : 1574062362049,
+        "duration" : 8179
+      }
+    }, {
+      "uid" : "1f481c419e7855b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574062073334,
+        "stop" : 1574062081755,
+        "duration" : 8421
+      }
+    }, {
+      "uid" : "a3f808e5a480ee72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061660175,
+        "stop" : 1574061668424,
+        "duration" : 8249
+      }
+    }, {
+      "uid" : "ba8de6fc0df08b52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061577114,
+        "stop" : 1574061585274,
+        "duration" : 8160
+      }
+    }, {
+      "uid" : "ef19aba46dce7a4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061124472,
+        "stop" : 1574061132787,
+        "duration" : 8315
+      }
+    }, {
+      "uid" : "c600faf778e68cb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574060984775,
+        "stop" : 1574060993142,
+        "duration" : 8367
+      }
+    }, {
+      "uid" : "ccfe8c1e15113baf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1574059345446,
+        "stop" : 1574059380721,
+        "duration" : 35275
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "18f46f721ca944dd.json",
+  "parameterValues" : [ ]
+}

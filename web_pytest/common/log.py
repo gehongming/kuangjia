@@ -1,8 +1,8 @@
 #__author__="G"
 #date: 2019/4/24
 import logging
-from web_pytest.common import contants
-from web_pytest.common.config import config
+from common import contants
+from common.config import config
 import time
 
     # 新建一个日志收集器：getLogger() 新建一个收集器
@@ -24,8 +24,6 @@ def get_logger(name):
     # 配合关系
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)
-
-
 
     # 收集日志
     return logger

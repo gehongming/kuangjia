@@ -1,0 +1,30 @@
+2019-11-18 16:26:47,331 -  common.basepage -INFO - 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary"]') 可见。 - [basepage.py:24 ]
+2019-11-18 16:26:47,331 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:35 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+AttributeError: 'generator' object has no attribute 'find_element'
+2019-11-18 16:26:47,334 -  common.basepage -ERROR - 网页截屏失败！ - [basepage.py:186 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+AttributeError: 'generator' object has no attribute 'find_element'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 183, in save_web_screenshot
+    self.driver.save_screenshot(screenshot_dir +"/" + filepath)
+AttributeError: 'generator' object has no attribute 'save_screenshot'

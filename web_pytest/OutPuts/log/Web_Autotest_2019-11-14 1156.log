@@ -1,0 +1,57 @@
+2019-11-14 11:56:49,920 -  common.basepage -INFO - 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary"]') 可见。 - [basepage.py:24 ]
+2019-11-14 11:56:49,976 -  common.basepage -INFO - 开始等待时间点：2019-11-14 11:56:49.920074，结束等待时间点：2019-11-14 11:56:49.975080，等待时长为：0:00:00.055006 - [basepage.py:32 ]
+2019-11-14 11:56:49,976 -  common.basepage -INFO - 查找 同意协议 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary"]')  - [basepage.py:46 ]
+2019-11-14 11:56:49,994 -  common.basepage -INFO -  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary"]') - [basepage.py:71 ]
+2019-11-14 11:56:50,139 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@name="phone"]') 可见。 - [basepage.py:24 ]
+2019-11-14 11:56:50,325 -  common.basepage -INFO - 开始等待时间点：2019-11-14 11:56:50.139096，结束等待时间点：2019-11-14 11:56:50.325115，等待时长为：0:00:00.186019 - [basepage.py:32 ]
+2019-11-14 11:56:50,325 -  common.basepage -INFO - 查找 输入手机号 中的元素 ('xpath', '//input[@name="phone"]')  - [basepage.py:46 ]
+2019-11-14 11:56:50,339 -  common.basepage -INFO -  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('45608400321',) - [basepage.py:104 ]
+2019-11-14 11:56:50,680 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@name="phoneCode"]') 可见。 - [basepage.py:24 ]
+2019-11-14 11:56:50,755 -  common.basepage -INFO - 开始等待时间点：2019-11-14 11:56:50.684151，结束等待时间点：2019-11-14 11:56:50.755158，等待时长为：0:00:00.071007 - [basepage.py:32 ]
+2019-11-14 11:56:50,755 -  common.basepage -INFO - 查找 输入验证码 中的元素 ('xpath', '//input[@name="phoneCode"]')  - [basepage.py:46 ]
+2019-11-14 11:56:50,769 -  common.basepage -INFO -  给元素 ('xpath', '//input[@name="phoneCode"]') 输入文本内容:('sD2q',) - [basepage.py:104 ]
+2019-11-14 11:56:50,895 -  common.basepage -INFO - 等待元素 ('xpath', '//p[text()="下一步"]') 可见。 - [basepage.py:24 ]
+2019-11-14 11:56:50,937 -  common.basepage -INFO - 开始等待时间点：2019-11-14 11:56:50.895172，结束等待时间点：2019-11-14 11:56:50.937176，等待时长为：0:00:00.042004 - [basepage.py:32 ]
+2019-11-14 11:56:50,937 -  common.basepage -INFO - 查找 去填信息 中的元素 ('xpath', '//p[text()="下一步"]')  - [basepage.py:46 ]
+2019-11-14 11:56:50,945 -  common.basepage -INFO -  点击元素 ('xpath', '//p[text()="下一步"]') - [basepage.py:71 ]
+2019-11-14 11:56:53,062 -  common.basepage -INFO - 等待元素 ('xpath', '// input[ @ name = "storeName"]') 可见。 - [basepage.py:24 ]
+2019-11-14 11:56:53,099 -  common.basepage -INFO - 开始等待时间点：2019-11-14 11:56:53.062388，结束等待时间点：2019-11-14 11:56:53.099392，等待时长为：0:00:00.037004 - [basepage.py:32 ]
+2019-11-14 11:56:53,099 -  common.basepage -INFO - 查找 输入店铺名称 中的元素 ('xpath', '// input[ @ name = "storeName"]')  - [basepage.py:46 ]
+2019-11-14 11:56:53,110 -  common.basepage -INFO -  给元素 ('xpath', '// input[ @ name = "storeName"]') 输入文本内容:('眼镜csa',) - [basepage.py:104 ]
+2019-11-14 11:56:53,348 -  common.basepage -INFO - 等待元素 ('xpath', '//span[@class="ant-cascader-picker-label"]') 可见。 - [basepage.py:24 ]
+2019-11-14 11:56:53,378 -  common.basepage -INFO - 开始等待时间点：2019-11-14 11:56:53.348417，结束等待时间点：2019-11-14 11:56:53.378420，等待时长为：0:00:00.030003 - [basepage.py:32 ]
+2019-11-14 11:56:53,378 -  common.basepage -INFO - 查找 点击所在地 中的元素 ('xpath', '//span[@class="ant-cascader-picker-label"]')  - [basepage.py:46 ]
+2019-11-14 11:56:53,386 -  common.basepage -INFO -  点击元素 ('xpath', '//span[@class="ant-cascader-picker-label"]') - [basepage.py:71 ]
+2019-11-14 11:56:53,703 -  common.basepage -INFO - 等待元素 ('xpath', '//li[@title="新疆维吾尔自治区"]') 可见。 - [basepage.py:24 ]
+2019-11-14 11:56:53,761 -  common.basepage -INFO - 开始等待时间点：2019-11-14 11:56:53.703453，结束等待时间点：2019-11-14 11:56:53.761458，等待时长为：0:00:00.058005 - [basepage.py:32 ]
+2019-11-14 11:56:53,762 -  common.basepage -INFO - 查找 省 中的元素 ('xpath', '//li[@title="新疆维吾尔自治区"]')  - [basepage.py:46 ]
+2019-11-14 11:56:53,773 -  common.basepage -INFO -  点击元素 ('xpath', '//li[@title="新疆维吾尔自治区"]') - [basepage.py:71 ]
+2019-11-14 11:56:54,120 -  common.basepage -INFO - 等待元素 ('xpath', '//li[@title="可克达拉市"]') 可见。 - [basepage.py:24 ]
+2019-11-14 11:56:54,145 -  common.basepage -INFO - 开始等待时间点：2019-11-14 11:56:54.120494，结束等待时间点：2019-11-14 11:56:54.145497，等待时长为：0:00:00.025003 - [basepage.py:32 ]
+2019-11-14 11:56:54,146 -  common.basepage -INFO - 查找 市 中的元素 ('xpath', '//li[@title="可克达拉市"]')  - [basepage.py:46 ]
+2019-11-14 11:56:54,155 -  common.basepage -INFO -  点击元素 ('xpath', '//li[@title="可克达拉市"]') - [basepage.py:71 ]
+2019-11-14 11:56:54,467 -  common.basepage -INFO - 等待元素 ('xpath', '//li[@title="兵团六十七团"]') 可见。 - [basepage.py:24 ]
+2019-11-14 11:56:54,520 -  common.basepage -INFO - 开始等待时间点：2019-11-14 11:56:54.467529，结束等待时间点：2019-11-14 11:56:54.520534，等待时长为：0:00:00.053005 - [basepage.py:32 ]
+2019-11-14 11:56:54,521 -  common.basepage -INFO - 查找 区 中的元素 ('xpath', '//li[@title="兵团六十七团"]')  - [basepage.py:46 ]
+2019-11-14 11:56:54,529 -  common.basepage -INFO -  点击元素 ('xpath', '//li[@title="兵团六十七团"]') - [basepage.py:71 ]
+2019-11-14 11:56:54,689 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@name="address"]') 可见。 - [basepage.py:24 ]
+2019-11-14 11:56:54,713 -  common.basepage -INFO - 开始等待时间点：2019-11-14 11:56:54.689551，结束等待时间点：2019-11-14 11:56:54.713554，等待时长为：0:00:00.024003 - [basepage.py:32 ]
+2019-11-14 11:56:54,713 -  common.basepage -INFO - 查找 输入详细地址 中的元素 ('xpath', '//input[@name="address"]')  - [basepage.py:46 ]
+2019-11-14 11:56:54,721 -  common.basepage -INFO -  给元素 ('xpath', '//input[@name="address"]') 输入文本内容:('网管查房',) - [basepage.py:104 ]
+2019-11-14 11:56:54,812 -  common.basepage -INFO - 查找 输入联系人 中的元素 ('xpath', '//input[@name="contacts"')  - [basepage.py:46 ]
+2019-11-14 11:56:54,839 -  common.basepage -ERROR - 查找元素失败 - [basepage.py:52 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 48, in get_element
+    ele = self.driver.find_element(*loc)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //input[@name="contacts" because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@name="contacts"' is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-11-14 11:56:55,274 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/输入联系人_2019-11-14 11_56_54.png - [basepage.py:166 ]

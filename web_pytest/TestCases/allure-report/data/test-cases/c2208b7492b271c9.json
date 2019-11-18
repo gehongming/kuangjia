@@ -1,0 +1,160 @@
+{
+  "uid" : "c2208b7492b271c9",
+  "name" : "test_login",
+  "fullName" : "Testcases.test_2buy.TestLogin#test_login",
+  "historyId" : "a404df02f600ced5f37d055b093f39d6",
+  "time" : {
+    "start" : 1574059305871,
+    "stop" : 1574059313296,
+    "duration" : 7425
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1574059298145,
+      "stop" : 1574059305867,
+      "duration" : 7722
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1574059298145,
+      "stop" : 1574059298145,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试开始",
+      "time" : {
+        "start" : 1574059298145,
+        "stop" : 1574059298145,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "验证码登录",
+      "time" : {
+        "start" : 1574059305872,
+        "stop" : 1574059306174,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'17625188013'"
+      }, {
+        "name" : "passwd",
+        "value" : "'sD2q'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9156e8b6eac0fa65",
+      "name" : "log",
+      "source" : "9156e8b6eac0fa65.txt",
+      "type" : "text/plain",
+      "size" : 1497
+    }, {
+      "uid" : "25b047d8a7331288",
+      "name" : "stderr",
+      "source" : "25b047d8a7331288.txt",
+      "type" : "text/plain",
+      "size" : 1870
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1574059381482,
+      "stop" : 1574059384646,
+      "duration" : 3164
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "11256-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "c2208b7492b271c9.json",
+  "parameterValues" : [ ]
+}

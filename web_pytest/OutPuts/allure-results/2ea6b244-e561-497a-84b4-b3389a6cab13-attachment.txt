@@ -1,0 +1,18 @@
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[@href="https://cart.yjq.com/shoppingCart"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-18 15:19:37.114600，结束等待时间点：2019-11-18 15:19:37.138603，等待时长为：0:00:00.024003
+INFO     common.basepage:basepage.py:64 查找 进入购物车 中的元素 ('xpath', '//a[@href="https://cart.yjq.com/shoppingCart"]') 
+INFO     common.basepage:basepage.py:89  点击元素 ('xpath', '//a[@href="https://cart.yjq.com/shoppingCart"]')
+INFO     common.basepage:basepage.py:64 查找 勾选商品 中的元素 ('xpath', '//span[text()="赛目光学"]/parent::div/span/label/span/input') 
+INFO     common.basepage:basepage.py:106  点击元素 ('xpath', '//span[text()="赛目光学"]/parent::div/span/label/span/input')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//li[text()="去结算"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-18 15:19:39.654854，结束等待时间点：2019-11-18 15:19:39.682857，等待时长为：0:00:00.028003
+INFO     common.basepage:basepage.py:64 查找 去结算 中的元素 ('xpath', '//li[text()="去结算"]') 
+INFO     common.basepage:basepage.py:89  点击元素 ('xpath', '//li[text()="去结算"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//textarea') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-18 15:19:41.749064，结束等待时间点：2019-11-18 15:19:41.791068，等待时长为：0:00:00.042004
+INFO     common.basepage:basepage.py:64 查找 输入留言 中的元素 ('xpath', '//textarea') 
+INFO     common.basepage:basepage.py:122  给元素 ('xpath', '//textarea') 输入文本内容:('网管查房',)
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//div[text()="确认采购"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-18 15:19:42.162105，结束等待时间点：2019-11-18 15:19:42.199109，等待时长为：0:00:00.037004
+INFO     common.basepage:basepage.py:64 查找 生成订单 中的元素 ('xpath', '//div[text()="确认采购"]') 
+INFO     common.basepage:basepage.py:89  点击元素 ('xpath', '//div[text()="确认采购"]')

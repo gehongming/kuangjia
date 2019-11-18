@@ -1,0 +1,160 @@
+{
+  "uid" : "1b2651bd281fb9",
+  "name" : "test_cancel_order_yes",
+  "fullName" : "Testcases.test_2buy.TestLogin#test_cancel_order_yes",
+  "historyId" : "660e855ef68f4978c0981a70625b7a31",
+  "time" : {
+    "start" : 1574061668442,
+    "stop" : 1574061672861,
+    "duration" : 4419
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1574061613713,
+      "stop" : 1574061621848,
+      "duration" : 8135
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1574061613712,
+      "stop" : 1574061613713,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试开始",
+      "time" : {
+        "start" : 1574061613713,
+        "stop" : 1574061613713,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入带付款列表，取消订单",
+      "time" : {
+        "start" : 1574061668643,
+        "stop" : 1574061669853,
+        "duration" : 1210
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a015fc0dd8121c48",
+      "name" : "log",
+      "source" : "a015fc0dd8121c48.txt",
+      "type" : "text/plain",
+      "size" : 1863
+    }, {
+      "uid" : "a40affa39f05a4a4",
+      "name" : "stderr",
+      "source" : "a40affa39f05a4a4.txt",
+      "type" : "text/plain",
+      "size" : 2298
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1574061672863,
+      "stop" : 1574061675985,
+      "duration" : 3122
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试取消订单"
+  }, {
+    "name" : "feature",
+    "value" : "每日用例-购买"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "15008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "1b2651bd281fb9.json",
+  "parameterValues" : [ ]
+}

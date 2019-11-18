@@ -1,0 +1,196 @@
+{
+  "uid" : "ff8246a93d25f91c",
+  "name" : "test_buy_hl",
+  "fullName" : "Testcases.test_2buy.TestLogin#test_buy_hl",
+  "historyId" : "88af4556d6b2b5a6136a6f6b61eb5134",
+  "time" : {
+    "start" : 1574060964760,
+    "stop" : 1574060973825,
+    "duration" : 9065
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1574060934008,
+      "stop" : 1574060941929,
+      "duration" : 7921
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1574060934007,
+      "stop" : 1574060934007,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试开始",
+      "time" : {
+        "start" : 1574060934007,
+        "stop" : 1574060934007,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "搜索商品",
+      "time" : {
+        "start" : 1574060964761,
+        "stop" : 1574060965797,
+        "duration" : 1036
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'卫康新视多功能隐形眼镜护理液125ml'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击进入护理液商品详情页面",
+      "time" : {
+        "start" : 1574060967812,
+        "stop" : 1574060968492,
+        "duration" : 680
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择隐形眼镜sku，加入购物车",
+      "time" : {
+        "start" : 1574060972572,
+        "stop" : 1574060972742,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "count",
+        "value" : "'1'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "572d7086fb0724f8",
+      "name" : "log",
+      "source" : "572d7086fb0724f8.txt",
+      "type" : "text/plain",
+      "size" : 2500
+    }, {
+      "uid" : "331b7b55c39df611",
+      "name" : "stderr",
+      "source" : "331b7b55c39df611.txt",
+      "type" : "text/plain",
+      "size" : 3090
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1574060997638,
+      "stop" : 1574061000864,
+      "duration" : 3226
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "每日用例-购买"
+  }, {
+    "name" : "story",
+    "value" : "测试护理液加入购物车"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "13080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "ff8246a93d25f91c.json",
+  "parameterValues" : [ ]
+}

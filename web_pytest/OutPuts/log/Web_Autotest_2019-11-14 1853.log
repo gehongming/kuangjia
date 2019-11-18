@@ -1,0 +1,26 @@
+2019-11-14 18:54:00,510 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@name="phone"]') 可见。 - [basepage.py:24 ]
+2019-11-14 18:54:00,692 -  common.basepage -INFO - 开始等待时间点：2019-11-14 18:54:00.511774，结束等待时间点：2019-11-14 18:54:00.692774，等待时长为：0:00:00.181000 - [basepage.py:32 ]
+2019-11-14 18:54:00,692 -  common.basepage -INFO - 查找 输入手机号 中的元素 ('xpath', '//input[@name="phone"]')  - [basepage.py:64 ]
+2019-11-14 18:54:00,708 -  common.basepage -INFO -  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('17625188013',) - [basepage.py:122 ]
+2019-11-14 18:54:00,932 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@name="phoneCode"]') 可见。 - [basepage.py:24 ]
+2019-11-14 18:54:00,970 -  common.basepage -INFO - 开始等待时间点：2019-11-14 18:54:00.932774，结束等待时间点：2019-11-14 18:54:00.970774，等待时长为：0:00:00.038000 - [basepage.py:32 ]
+2019-11-14 18:54:00,970 -  common.basepage -INFO - 查找 输入验证码 中的元素 ('xpath', '//input[@name="phoneCode"]')  - [basepage.py:64 ]
+2019-11-14 18:54:00,978 -  common.basepage -INFO -  给元素 ('xpath', '//input[@name="phoneCode"]') 输入文本内容:('sD2q', '\ue007') - [basepage.py:122 ]
+2019-11-14 18:54:08,116 -  common.basepage -INFO - 等待元素 ('xpath', '//a[@href="https://shop.yjq.com/shoppingCenter/shoppingList"]') 可见。 - [basepage.py:24 ]
+2019-11-14 18:54:08,156 -  common.basepage -INFO - 开始等待时间点：2019-11-14 18:54:08.118774，结束等待时间点：2019-11-14 18:54:08.156774，等待时长为：0:00:00.038000 - [basepage.py:32 ]
+2019-11-14 18:54:08,156 -  common.basepage -INFO - 查找 进入采购单 中的元素 ('xpath', '//a[@href="https://shop.yjq.com/shoppingCenter/shoppingList"]')  - [basepage.py:64 ]
+2019-11-14 18:54:08,168 -  common.basepage -INFO -  点击元素 ('xpath', '//a[@href="https://shop.yjq.com/shoppingCenter/shoppingList"]') - [basepage.py:89 ]
+2019-11-14 18:54:09,486 -  common.basepage -INFO - 等待元素 ('xpath', '//li[@class=" active"]') 可见。 - [basepage.py:24 ]
+2019-11-14 18:54:09,528 -  common.basepage -INFO - 开始等待时间点：2019-11-14 18:54:09.486774，结束等待时间点：2019-11-14 18:54:09.528774，等待时长为：0:00:00.042000 - [basepage.py:32 ]
+2019-11-14 18:54:09,528 -  common.basepage -INFO - 查找 进入待付款列表 中的元素 ('xpath', '//li[@class=" active"]')  - [basepage.py:64 ]
+2019-11-14 18:54:09,542 -  common.basepage -INFO -  点击元素 ('xpath', '//li[@class=" active"]') - [basepage.py:89 ]
+2019-11-14 18:54:09,608 -  common.basepage -INFO - 等待元素 ('xpath', '//li[@class=" active"]/span[@class="ml4 colorRed"]') 可见。 - [basepage.py:24 ]
+2019-11-14 18:54:40,061 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:35 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-11-14 18:54:40,446 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/获取待付款数字_2019-11-14 18_54_40.png - [basepage.py:184 ]

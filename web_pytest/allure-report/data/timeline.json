@@ -2,51 +2,1026 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "DESKTOP-BI9MG9T",
+    "name" : "JS-CS-002",
     "children" : [ {
-      "name" : "13728-MainThread",
+      "name" : "14520-MainThread",
       "children" : [ {
-        "name" : "test_2",
-        "uid" : "55b931ac33bd16e4",
-        "parentUid" : "72c92c86a98214c75aa182bbe672cb16",
+        "name" : "测试登录正常",
+        "uid" : "afd4073822a89e0a",
+        "parentUid" : "0e2a42b1c0cc6cfa7d37a2375a84b58f",
         "status" : "passed",
         "time" : {
-          "start" : 1561906947014,
-          "stop" : 1561906951231,
-          "duration" : 4217
+          "start" : 1574063475342,
+          "stop" : 1574063486501,
+          "duration" : 11159
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_1",
-        "uid" : "7dce39c7f655c905",
-        "parentUid" : "72c92c86a98214c75aa182bbe672cb16",
+        "name" : "测试隐形眼镜加入购物车",
+        "uid" : "43a803d032b08729",
+        "parentUid" : "0e2a42b1c0cc6cfa7d37a2375a84b58f",
         "status" : "passed",
         "time" : {
-          "start" : 1561906932854,
-          "stop" : 1561906935672,
-          "duration" : 2818
+          "start" : 1574063507132,
+          "stop" : 1574063518038,
+          "duration" : 10906
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_3",
-        "uid" : "b2017e7286cbee2",
-        "parentUid" : "72c92c86a98214c75aa182bbe672cb16",
+        "name" : "测试购物车结算",
+        "uid" : "81474e6cda6ba505",
+        "parentUid" : "0e2a42b1c0cc6cfa7d37a2375a84b58f",
         "status" : "passed",
         "time" : {
-          "start" : 1561906961698,
-          "stop" : 1561906966279,
-          "duration" : 4581
+          "start" : 1574063518060,
+          "stop" : 1574063641166,
+          "duration" : 123106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试取消订单",
+        "uid" : "a12915113dff6d74",
+        "parentUid" : "0e2a42b1c0cc6cfa7d37a2375a84b58f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574063641193,
+          "stop" : 1574063645684,
+          "duration" : 4491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试护理液加入购物车",
+        "uid" : "e46fa45dedd0de88",
+        "parentUid" : "0e2a42b1c0cc6cfa7d37a2375a84b58f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574063497981,
+          "stop" : 1574063507106,
+          "duration" : 9125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试隐形眼镜加入购物车",
+        "uid" : "d789cf762165b30e",
+        "parentUid" : "0e2a42b1c0cc6cfa7d37a2375a84b58f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574063486559,
+          "stop" : 1574063497975,
+          "duration" : 11416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login2",
+        "uid" : "9bdebb662daaa2dc",
+        "parentUid" : "0e2a42b1c0cc6cfa7d37a2375a84b58f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574063467382,
+          "stop" : 1574063467496,
+          "duration" : 114
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "72c92c86a98214c75aa182bbe672cb16"
+      "uid" : "0e2a42b1c0cc6cfa7d37a2375a84b58f"
+    }, {
+      "name" : "13080-MainThread",
+      "children" : [ {
+        "name" : "test_buy_dzp",
+        "uid" : "b46b1756edfef65",
+        "parentUid" : "9d942b0655288bd6b8e394c9c618dac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574060973839,
+          "stop" : 1574060984746,
+          "duration" : 10907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_orders",
+        "uid" : "c600faf778e68cb9",
+        "parentUid" : "9d942b0655288bd6b8e394c9c618dac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574060984775,
+          "stop" : 1574060993142,
+          "duration" : 8367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_yx",
+        "uid" : "a3d31c71eb227e92",
+        "parentUid" : "9d942b0655288bd6b8e394c9c618dac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574060952984,
+          "stop" : 1574060964730,
+          "duration" : 11746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cancel_order_yes",
+        "uid" : "c6d20f25cfb843bd",
+        "parentUid" : "9d942b0655288bd6b8e394c9c618dac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574060993168,
+          "stop" : 1574060997636,
+          "duration" : 4468
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "634bddf63a7dad0",
+        "parentUid" : "9d942b0655288bd6b8e394c9c618dac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574060941932,
+          "stop" : 1574060952967,
+          "duration" : 11035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_hl",
+        "uid" : "5eeeb08281abfca2",
+        "parentUid" : "9d942b0655288bd6b8e394c9c618dac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574060964760,
+          "stop" : 1574060973825,
+          "duration" : 9065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d942b0655288bd6b8e394c9c618dac7"
+    }, {
+      "name" : "15008-MainThread",
+      "children" : [ {
+        "name" : "test_buy_dzp",
+        "uid" : "39fc196154eb79df",
+        "parentUid" : "ba72344486b79cafd2817d2de7758e18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061649416,
+          "stop" : 1574061660167,
+          "duration" : 10751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cancel_order_yes",
+        "uid" : "1b2651bd281fb9",
+        "parentUid" : "ba72344486b79cafd2817d2de7758e18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061668442,
+          "stop" : 1574061672861,
+          "duration" : 4419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "15317afb0231f94b",
+        "parentUid" : "ba72344486b79cafd2817d2de7758e18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061621849,
+          "stop" : 1574061629329,
+          "duration" : 7480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_orders",
+        "uid" : "a3f808e5a480ee72",
+        "parentUid" : "ba72344486b79cafd2817d2de7758e18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061660175,
+          "stop" : 1574061668424,
+          "duration" : 8249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_yx",
+        "uid" : "814d686a8bff1c72",
+        "parentUid" : "ba72344486b79cafd2817d2de7758e18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061629350,
+          "stop" : 1574061641019,
+          "duration" : 11669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_hl",
+        "uid" : "673fabe2acae5f03",
+        "parentUid" : "ba72344486b79cafd2817d2de7758e18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061641025,
+          "stop" : 1574061649403,
+          "duration" : 8378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba72344486b79cafd2817d2de7758e18"
+    }, {
+      "name" : "14096-MainThread",
+      "children" : [ {
+        "name" : "测试购物车结算",
+        "uid" : "18f46f721ca944dd",
+        "parentUid" : "99dead53cfd7aee92d9eaf6f7d836894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574065654863,
+          "stop" : 1574065663137,
+          "duration" : 8274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试取消订单",
+        "uid" : "4630b3d328c4b62e",
+        "parentUid" : "99dead53cfd7aee92d9eaf6f7d836894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574065663169,
+          "stop" : 1574065667706,
+          "duration" : 4537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试护理液加入购物车",
+        "uid" : "faea11e00207c5d8",
+        "parentUid" : "99dead53cfd7aee92d9eaf6f7d836894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574065634622,
+          "stop" : 1574065643485,
+          "duration" : 8863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login2",
+        "uid" : "28cbb5218f07884",
+        "parentUid" : "99dead53cfd7aee92d9eaf6f7d836894",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574065607232,
+          "stop" : 1574065607340,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试定制片加入购物车",
+        "uid" : "c197ac0513cc6a37",
+        "parentUid" : "99dead53cfd7aee92d9eaf6f7d836894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574065643495,
+          "stop" : 1574065654846,
+          "duration" : 11351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试隐形眼镜加入购物车",
+        "uid" : "6e4eb241ced6ce22",
+        "parentUid" : "99dead53cfd7aee92d9eaf6f7d836894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574065622892,
+          "stop" : 1574065634602,
+          "duration" : 11710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试登录正常",
+        "uid" : "66c94384bfbab1a7",
+        "parentUid" : "99dead53cfd7aee92d9eaf6f7d836894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574065615171,
+          "stop" : 1574065622871,
+          "duration" : 7700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99dead53cfd7aee92d9eaf6f7d836894"
+    }, {
+      "name" : "12948-MainThread",
+      "children" : [ {
+        "name" : "test_orders",
+        "uid" : "113c7da41c3abd96",
+        "parentUid" : "dd951326265ea4b2257112da26ecd5fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062514790,
+          "stop" : 1574062523120,
+          "duration" : 8330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_dzp",
+        "uid" : "82b8f4e59d9c4fd7",
+        "parentUid" : "dd951326265ea4b2257112da26ecd5fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062503461,
+          "stop" : 1574062514777,
+          "duration" : 11316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cancel_order_yes",
+        "uid" : "c51230b203e71da3",
+        "parentUid" : "dd951326265ea4b2257112da26ecd5fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062523131,
+          "stop" : 1574062527608,
+          "duration" : 4477
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_yx",
+        "uid" : "b4647fdb913eabff",
+        "parentUid" : "dd951326265ea4b2257112da26ecd5fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062483440,
+          "stop" : 1574062494609,
+          "duration" : 11169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_hl",
+        "uid" : "cb25dd09dbe74428",
+        "parentUid" : "dd951326265ea4b2257112da26ecd5fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062494616,
+          "stop" : 1574062503445,
+          "duration" : 8829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "74601b56bdb78765",
+        "parentUid" : "dd951326265ea4b2257112da26ecd5fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062475434,
+          "stop" : 1574062483430,
+          "duration" : 7996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd951326265ea4b2257112da26ecd5fb"
+    }, {
+      "name" : "16284-MainThread",
+      "children" : [ {
+        "name" : "测试隐形眼镜加入购物车",
+        "uid" : "41318c865dabd049",
+        "parentUid" : "5f0250068f8e5b0581147f9d4e08fe16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574064616612,
+          "stop" : 1574064627952,
+          "duration" : 11340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login2",
+        "uid" : "421ab4da2aba297e",
+        "parentUid" : "5f0250068f8e5b0581147f9d4e08fe16",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574064578485,
+          "stop" : 1574064578588,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试护理液加入购物车",
+        "uid" : "988ff0e30786e305",
+        "parentUid" : "5f0250068f8e5b0581147f9d4e08fe16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574064607605,
+          "stop" : 1574064616593,
+          "duration" : 8988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试取消订单",
+        "uid" : "6d9ecc6c1e52133d",
+        "parentUid" : "5f0250068f8e5b0581147f9d4e08fe16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574064636153,
+          "stop" : 1574064640664,
+          "duration" : 4511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试隐形眼镜加入购物车",
+        "uid" : "dba6c6264c9e0dcb",
+        "parentUid" : "5f0250068f8e5b0581147f9d4e08fe16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574064595932,
+          "stop" : 1574064607595,
+          "duration" : 11663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试购物车结算",
+        "uid" : "dd8a02c2de06d2be",
+        "parentUid" : "5f0250068f8e5b0581147f9d4e08fe16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574064627960,
+          "stop" : 1574064636141,
+          "duration" : 8181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试登录正常",
+        "uid" : "364d12ecfc6cdcb4",
+        "parentUid" : "5f0250068f8e5b0581147f9d4e08fe16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574064585835,
+          "stop" : 1574064595920,
+          "duration" : 10085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f0250068f8e5b0581147f9d4e08fe16"
+    }, {
+      "name" : "14132-MainThread",
+      "children" : [ {
+        "name" : "test_cancel_order_yes",
+        "uid" : "a722ae6df802abfc",
+        "parentUid" : "cfc0d1282579bed1dfd872b034a1d7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061132808,
+          "stop" : 1574061137200,
+          "duration" : 4392
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_dzp",
+        "uid" : "7f2843b6b44fe4b3",
+        "parentUid" : "cfc0d1282579bed1dfd872b034a1d7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061112814,
+          "stop" : 1574061124442,
+          "duration" : 11628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "5272382d1d1776d6",
+        "parentUid" : "cfc0d1282579bed1dfd872b034a1d7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061085276,
+          "stop" : 1574061092959,
+          "duration" : 7683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_yx",
+        "uid" : "3ebd39f1ef49e2d8",
+        "parentUid" : "cfc0d1282579bed1dfd872b034a1d7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061092988,
+          "stop" : 1574061104400,
+          "duration" : 11412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_hl",
+        "uid" : "1ff5f8a3e9c03a70",
+        "parentUid" : "cfc0d1282579bed1dfd872b034a1d7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061104421,
+          "stop" : 1574061112805,
+          "duration" : 8384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_orders",
+        "uid" : "ef19aba46dce7a4b",
+        "parentUid" : "cfc0d1282579bed1dfd872b034a1d7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061124472,
+          "stop" : 1574061132787,
+          "duration" : 8315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cfc0d1282579bed1dfd872b034a1d7b2"
+    }, {
+      "name" : "11256-MainThread",
+      "children" : [ {
+        "name" : "test_orders",
+        "uid" : "ccfe8c1e15113baf",
+        "parentUid" : "3f6b1697370d63ff16ae51666c131cc7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574059345446,
+          "stop" : 1574059380721,
+          "duration" : 35275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_hl",
+        "uid" : "d4b014d1cc318968",
+        "parentUid" : "3f6b1697370d63ff16ae51666c131cc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574059325458,
+          "stop" : 1574059333972,
+          "duration" : 8514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "2a890ed1bbfd05a2",
+        "parentUid" : "3f6b1697370d63ff16ae51666c131cc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574059305871,
+          "stop" : 1574059313296,
+          "duration" : 7425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_dzp",
+        "uid" : "20c90d7d1204252",
+        "parentUid" : "3f6b1697370d63ff16ae51666c131cc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574059333979,
+          "stop" : 1574059345436,
+          "duration" : 11457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cancel_order_yes",
+        "uid" : "847d485fc9e08d25",
+        "parentUid" : "3f6b1697370d63ff16ae51666c131cc7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574059380799,
+          "stop" : 1574059381439,
+          "duration" : 640
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_yx",
+        "uid" : "e2809b1912f4702f",
+        "parentUid" : "3f6b1697370d63ff16ae51666c131cc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574059313317,
+          "stop" : 1574059325448,
+          "duration" : 12131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f6b1697370d63ff16ae51666c131cc7"
+    }, {
+      "name" : "10800-MainThread",
+      "children" : [ {
+        "name" : "test_login2",
+        "uid" : "b86c1c7e8ca1c88c",
+        "parentUid" : "7b2681a08c63825dbc384550b5d4eb21",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574059155215,
+          "stop" : 1574059155379,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b2681a08c63825dbc384550b5d4eb21"
+    }, {
+      "name" : "14648-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "3803f56dce55ebff",
+        "parentUid" : "03e30533c7fcaebf3fadefdce0e84048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062314399,
+          "stop" : 1574062322026,
+          "duration" : 7627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_yx",
+        "uid" : "7f50406421af796d",
+        "parentUid" : "03e30533c7fcaebf3fadefdce0e84048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062322078,
+          "stop" : 1574062333824,
+          "duration" : 11746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cancel_order_yes",
+        "uid" : "373aa9183b3242d8",
+        "parentUid" : "03e30533c7fcaebf3fadefdce0e84048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062362091,
+          "stop" : 1574062366579,
+          "duration" : 4488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_orders",
+        "uid" : "e62b5b8725ea3fd4",
+        "parentUid" : "03e30533c7fcaebf3fadefdce0e84048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062353870,
+          "stop" : 1574062362049,
+          "duration" : 8179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_hl",
+        "uid" : "124298dc4506d232",
+        "parentUid" : "03e30533c7fcaebf3fadefdce0e84048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062333852,
+          "stop" : 1574062342795,
+          "duration" : 8943
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_dzp",
+        "uid" : "ae7f7a96f12da1a1",
+        "parentUid" : "03e30533c7fcaebf3fadefdce0e84048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062342808,
+          "stop" : 1574062353840,
+          "duration" : 11032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03e30533c7fcaebf3fadefdce0e84048"
+    }, {
+      "name" : "10448-MainThread",
+      "children" : [ {
+        "name" : "test_buy_yx",
+        "uid" : "e08e7a0453cad790",
+        "parentUid" : "6f09e542d58fb06bc1f7e8a20c3149da",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574059217358,
+          "stop" : 1574059248592,
+          "duration" : 31234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_go_purchase_order",
+        "uid" : "247796b18ce9fe45",
+        "parentUid" : "6f09e542d58fb06bc1f7e8a20c3149da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574059216196,
+          "stop" : 1574059217339,
+          "duration" : 1143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "3fc4810697e878c1",
+        "parentUid" : "6f09e542d58fb06bc1f7e8a20c3149da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574059205064,
+          "stop" : 1574059216083,
+          "duration" : 11019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f09e542d58fb06bc1f7e8a20c3149da"
+    }, {
+      "name" : "12052-MainThread",
+      "children" : [ {
+        "name" : "test_buy_dzp",
+        "uid" : "77424ebc0057dedd",
+        "parentUid" : "5f3e564a0d749d508045290e20b8598c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062062479,
+          "stop" : 1574062073312,
+          "duration" : 10833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "c8e94db47b1ca12c",
+        "parentUid" : "5f3e564a0d749d508045290e20b8598c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062035266,
+          "stop" : 1574062042697,
+          "duration" : 7431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_yx",
+        "uid" : "978dc277617744b3",
+        "parentUid" : "5f3e564a0d749d508045290e20b8598c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062042711,
+          "stop" : 1574062053991,
+          "duration" : 11280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cancel_order_yes",
+        "uid" : "4f8cdd23d4b252ea",
+        "parentUid" : "5f3e564a0d749d508045290e20b8598c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062081763,
+          "stop" : 1574062086247,
+          "duration" : 4484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_orders",
+        "uid" : "1f481c419e7855b0",
+        "parentUid" : "5f3e564a0d749d508045290e20b8598c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062073334,
+          "stop" : 1574062081755,
+          "duration" : 8421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_hl",
+        "uid" : "4dff99defd1973e3",
+        "parentUid" : "5f3e564a0d749d508045290e20b8598c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574062053997,
+          "stop" : 1574062062472,
+          "duration" : 8475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f3e564a0d749d508045290e20b8598c"
+    }, {
+      "name" : "14244-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "501d3c339627b128",
+        "parentUid" : "96cfa16a92e08189581d887ee902cd72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061538974,
+          "stop" : 1574061546567,
+          "duration" : 7593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cancel_order_yes",
+        "uid" : "312b56fa194d79d4",
+        "parentUid" : "96cfa16a92e08189581d887ee902cd72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061585300,
+          "stop" : 1574061589710,
+          "duration" : 4410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_orders",
+        "uid" : "ba8de6fc0df08b52",
+        "parentUid" : "96cfa16a92e08189581d887ee902cd72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061577114,
+          "stop" : 1574061585274,
+          "duration" : 8160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_yx",
+        "uid" : "7c9574c2fe7a6ae0",
+        "parentUid" : "96cfa16a92e08189581d887ee902cd72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061546579,
+          "stop" : 1574061557761,
+          "duration" : 11182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_dzp",
+        "uid" : "aa76ad404151d4b1",
+        "parentUid" : "96cfa16a92e08189581d887ee902cd72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061566293,
+          "stop" : 1574061577101,
+          "duration" : 10808
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_hl",
+        "uid" : "afcec27bd4e6fafc",
+        "parentUid" : "96cfa16a92e08189581d887ee902cd72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574061557784,
+          "stop" : 1574061566281,
+          "duration" : 8497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "96cfa16a92e08189581d887ee902cd72"
+    }, {
+      "name" : "15508-MainThread",
+      "children" : [ {
+        "name" : "测试登录正常",
+        "uid" : "8dd9688c205ba5bc",
+        "parentUid" : "45bb814bbbdec3a509afdd009820ae55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574065850663,
+          "stop" : 1574065858150,
+          "duration" : 7487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "45bb814bbbdec3a509afdd009820ae55"
     } ],
-    "uid" : "c570cc9e1c096df5d9cb4688d049dcec"
+    "uid" : "b65c71394dfba61c5208949556fc55a0"
   } ]
 }

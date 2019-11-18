@@ -1,0 +1,20 @@
+2019-11-18 14:42:25,446 -  common.basepage -INFO - 等待元素 ('xpath', '//a[@href="https://cart.yjq.com/shoppingCart"]') 可见。 - [basepage.py:24 ]
+2019-11-18 14:42:25,472 -  common.basepage -INFO - 开始等待时间点：2019-11-18 14:42:25.446453，结束等待时间点：2019-11-18 14:42:25.472456，等待时长为：0:00:00.026003 - [basepage.py:32 ]
+2019-11-18 14:42:25,472 -  common.basepage -INFO - 查找 进入购物车 中的元素 ('xpath', '//a[@href="https://cart.yjq.com/shoppingCart"]')  - [basepage.py:64 ]
+2019-11-18 14:42:25,480 -  common.basepage -INFO -  点击元素 ('xpath', '//a[@href="https://cart.yjq.com/shoppingCart"]') - [basepage.py:89 ]
+2019-11-18 14:42:27,692 -  common.basepage -INFO - 查找 勾选商品 中的元素 ('xpath', '//span[text()="赛目光学"]/parent::div/span/label/span/input')  - [basepage.py:64 ]
+2019-11-18 14:42:27,736 -  common.basepage -INFO -  点击元素 ('xpath', '//span[text()="赛目光学"]/parent::div/span/label/span/input') - [basepage.py:106 ]
+2019-11-18 14:42:28,154 -  common.basepage -INFO - 等待元素 ('xpath', '//li[text()="去结算"]') 可见。 - [basepage.py:24 ]
+2019-11-18 14:42:28,182 -  common.basepage -INFO - 开始等待时间点：2019-11-18 14:42:28.154724，结束等待时间点：2019-11-18 14:42:28.182727，等待时长为：0:00:00.028003 - [basepage.py:32 ]
+2019-11-18 14:42:28,183 -  common.basepage -INFO - 查找 去结算 中的元素 ('xpath', '//li[text()="去结算"]')  - [basepage.py:64 ]
+2019-11-18 14:42:28,191 -  common.basepage -INFO -  点击元素 ('xpath', '//li[text()="去结算"]') - [basepage.py:89 ]
+2019-11-18 14:42:30,266 -  common.basepage -INFO - 等待元素 ('xpath', '//textarea') 可见。 - [basepage.py:24 ]
+2019-11-18 14:43:00,303 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:35 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-11-18 14:43:00,719 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/输入留言_2019-11-18 14_43_00.png - [basepage.py:184 ]

@@ -1,0 +1,23 @@
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//input[@class="s-input"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-18 15:11:32.989193，结束等待时间点：2019-11-18 15:11:33.022196，等待时长为：0:00:00.033003
+INFO     common.basepage:basepage.py:64 查找 搜索商品 中的元素 ('xpath', '//input[@class="s-input"]') 
+INFO     common.basepage:basepage.py:122  给元素 ('xpath', '//input[@class="s-input"]') 输入文本内容:('NEO小黑环半年抛彩色隐形眼镜1片装', '\ue007')
+INFO     common.basepage:basepage.py:197 点击('xpath', '//a[@href="https://www.yjq.com/product/1544773775205.html"]')元素，出现进入隐形商品详情页并切换窗口弹框
+INFO     common.basepage:basepage.py:198 获取窗口数。
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[@href="https://www.yjq.com/product/1544773775205.html"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-18 15:11:36.288522，结束等待时间点：2019-11-18 15:11:36.313525，等待时长为：0:00:00.025003
+INFO     common.basepage:basepage.py:64 查找 进入隐形商品详情页并切换窗口 中的元素 ('xpath', '//a[@href="https://www.yjq.com/product/1544773775205.html"]') 
+INFO     common.basepage:basepage.py:89  点击元素 ('xpath', '//a[@href="https://www.yjq.com/product/1544773775205.html"]')
+INFO     common.basepage:basepage.py:203 进入新页面
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//span[text()="星空紫"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-18 15:11:43.016195，结束等待时间点：2019-11-18 15:11:43.052199，等待时长为：0:00:00.036004
+INFO     common.basepage:basepage.py:64 查找 选择花色 中的元素 ('xpath', '//span[text()="星空紫"]') 
+INFO     common.basepage:basepage.py:89  点击元素 ('xpath', '//span[text()="星空紫"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//tr[@skuid="6508964602909294595"]/td/span/button[@class="skuAdd skuRA"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-18 15:11:43.109204，结束等待时间点：2019-11-18 15:11:43.679261，等待时长为：0:00:00.570057
+INFO     common.basepage:basepage.py:64 查找 选择度数即数量 中的元素 ('xpath', '//tr[@skuid="6508964602909294595"]/td/span/button[@class="skuAdd skuRA"]') 
+INFO     common.basepage:basepage.py:89  点击元素 ('xpath', '//tr[@skuid="6508964602909294595"]/td/span/button[@class="skuAdd skuRA"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="add-car"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-18 15:11:43.736267，结束等待时间点：2019-11-18 15:11:43.766270，等待时长为：0:00:00.030003
+INFO     common.basepage:basepage.py:64 查找 加入购物车 中的元素 ('xpath', '//button[@class="add-car"]') 
+INFO     common.basepage:basepage.py:89  点击元素 ('xpath', '//button[@class="add-car"]')

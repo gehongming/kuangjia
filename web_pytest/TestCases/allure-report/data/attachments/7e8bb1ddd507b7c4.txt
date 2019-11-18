@@ -1,0 +1,4 @@
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[@href="https://shop.yjq.com/shoppingCenter/shoppingList"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-18 14:40:16.197530，结束等待时间点：2019-11-18 14:40:16.240534，等待时长为：0:00:00.043004
+INFO     common.basepage:basepage.py:64 查找 进入采购单 中的元素 ('xpath', '//a[@href="https://shop.yjq.com/shoppingCenter/shoppingList"]') 
+INFO     common.basepage:basepage.py:89  点击元素 ('xpath', '//a[@href="https://shop.yjq.com/shoppingCenter/shoppingList"]')

@@ -1,5 +1,4 @@
-
-from web_unittest.common import log
+from common import log
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -7,7 +6,7 @@ import datetime
 import time
 import win32gui
 import win32con
-from web_unittest.common.contants import screenshot_dir
+from common.contants import screenshot_dir
 from selenium.webdriver.support.select import Select
 logger=log.get_logger(__name__)
 
@@ -37,6 +36,24 @@ class BasePage:
             # 截图 - 哪一个页面哪一个操作导致的失败。+ 当前时间
             self.save_web_screenshot(img_doc)
             raise
+
+    #d等待元素存在
+    def wait_eleExist(self,loc,img_doc="",timeout=30,frequency=0.5):
+        logger.info("等待元素 {} 存在。".format(loc))
+        try:
+            # 起始等待的时间 datetime
+            start = datetime.datetime.now()
+            WebDriverWait(self.driver,timeout,frequency).until(EC.presence_of_element_located(loc))
+            # 结束等待的时间
+            end = datetime.datetime.now()
+            logger.info("开始等待时间点：{}，结束等待时间点：{}，等待时长为：{}".
+                format(start,end,end-start))
+        except:
+            # 日志
+            logger.exception("等待元素存在失败：")
+            # 截图 - 哪一个页面哪一个操作导致的失败。+ 当前时间
+            self.save_web_screenshot(img_doc)
+            raise
     # 查找一个元素
     def get_element(self,loc,img_doc=""):
         """
@@ -55,7 +72,7 @@ class BasePage:
             # 截图
             self.save_web_screenshot(img_doc)
             raise
-    #点击元素
+    #元素可见点击元素
     def click_element(self,loc,img_doc,timeout=30,frequency=0.5):
         """
         实现了，等待元素可见，找元素，然后再去点击元素。
@@ -67,17 +84,14 @@ class BasePage:
         self.wait_eleVisible(loc,img_doc,timeout,frequency)
         # 2、找元素
         ele = self.get_element(loc,img_doc)
-        # 3、再操作
-        logger.info(" 点击元素 {}".format(loc))
         try:
+            # 3、再操作
+            logger.info(" 点击元素 {}".format(loc))
             ele.click()
         except:
-            # 日志
             logger.exception("点击元素失败")
-            # 截图
             self.save_web_screenshot(img_doc)
             raise
-
     # 直接点击元素
     def click_element2(self, loc, img_doc, timeout=30, frequency=0.5):
             """
@@ -115,6 +129,21 @@ class BasePage:
             self.save_web_screenshot(img_doc)
             raise
 
+# 文本输入
+    #备用
+    def input_text_go(self, loc, img_doc, *args):
+        # 2、找元素
+        ele = self.get_element(loc, img_doc)
+        # 3、再操作
+        logger.info(" 给元素 {} 输入文本内容:{}".format(loc, args))
+        try:
+            ele.send_keys(*args)
+        except:
+            # 日志
+            logger.exception("元素输入操作失败")
+            # 截图
+            self.save_web_screenshot(img_doc)
+            raise
     # 获取元素的属性值
     def get_element_attribute(self,loc,attr_name,img_doc):
         self.wait_eleVisible(loc, img_doc)
@@ -130,7 +159,6 @@ class BasePage:
             # 截图
             self.save_web_screenshot(img_doc)
             raise
-
     # 获取元素的文本值。
     def get_element_text(self,loc,img_doc):
         self.wait_eleVisible(loc,img_doc)
@@ -146,7 +174,6 @@ class BasePage:
             # 截图
             self.save_web_screenshot(img_doc)
             raise
-
     # 实现网页截图操作
     def save_web_screenshot(self,img_doc):
         #  页面_功能_时间.png
@@ -158,7 +185,8 @@ class BasePage:
         except:
             logger.exception("网页截屏失败！")
 
-    # windows切换
+
+# windows切换
     def check_window(self,loc,img_doc):
         '''
         点击会出现新窗口的操作，并切换到新窗口
@@ -170,7 +198,9 @@ class BasePage:
         logger.info("获取窗口数。")
         self.click_element(loc,img_doc)
         handles = self.driver.window_handles
+        # logger.info('当前窗口数{}'.format(handles))
         self.driver.switch_to.window(handles[-1])
+        logger.info('进入新页面')
         time.sleep(0.5)
     # iframe切换
     def check_iframe(self,loc,webelement,img_doc):
@@ -189,7 +219,6 @@ class BasePage:
         except:
             logger.exception("弹框未出现")
             raise
-
     # select下拉列表
     def select(self,loc,value,img_doc):
         """
@@ -211,11 +240,11 @@ class BasePage:
     # 上传操作 -
     def upload(self,filePath,img_doc,browser_type="chrome"):
         try:
-            logger.info("上传文件路径".format(filePath))
+            logger.info("上传文件路径{}".format(filePath))
             if browser_type == "chrome":
                 title = "打开"
             else:
-                title = ""
+                title = "文件上传"
             # 找元素
             # 一级窗口"#32770","打开"
             dialog = win32gui.FindWindow("#32770", title)
@@ -230,8 +259,8 @@ class BasePage:
             # 往编辑当中，输入文件路径 。
             win32gui.SendMessage(edit, win32con.WM_SETTEXT, None, filePath)  # 发送文件路径
             win32gui.SendMessage(dialog, win32con.WM_COMMAND, 1, button)  # 点击打开按钮
+            logger.info("上传文件成功")
         except:
             logger.exception("上传文件失败")
             self.save_web_screenshot(img_doc)
             raise
-
