@@ -28,10 +28,25 @@ class HomePage(BasePage):
     def click_dz(self):
         self.check_window(hpl.dz, '进入定制商品详情页面并切换窗口')
 
-    # 进入购物车
+    #点击blh商品
+    @allure.step('点击进入伴侣盒商品详情页面')
+    def click_blh(self):
+        self.check_window(hpl.blh,'进入伴侣盒商品详情页面并切换窗口')
+
+    #点击jp商品
+    @allure.step('点击进入镜片商品详情页面')
+    def click_jp(self):
+        self.check_window(hpl.jp,'进入镜片商品详情页面并切换窗口')
+
+    # 老项目进入购物车
     @allure.step('点击进入购物车')
     def click_cart(self):
         self.click_element(hpl.go_cart, '进入购物车')
+
+        # 新项目进入购物车
+    @allure.step('点击进入购物车')
+    def click_cart_new(self):
+        self.check_window(hpl.go_cart_new, '进入购物车')
 
     #进入采购单
     @allure.step('进入采购单页面')

@@ -1,65 +1,85 @@
 [ {
-  "uid" : "8dd9688c205ba5bc",
-  "name" : "测试登录正常",
+  "uid" : "888a7fac5a5ae906",
+  "name" : "测试购物车结算",
   "time" : {
-    "start" : 1574065850663,
-    "stop" : 1574065858150,
-    "duration" : 7487
+    "start" : 1574325066537,
+    "stop" : 1574325104373,
+    "duration" : 37836
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c197ac0513cc6a37",
-  "name" : "测试定制片加入购物车",
-  "time" : {
-    "start" : 1574065643495,
-    "stop" : 1574065654846,
-    "duration" : 11351
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4630b3d328c4b62e",
-  "name" : "测试取消订单",
-  "time" : {
-    "start" : 1574065663169,
-    "stop" : 1574065667706,
-    "duration" : 4537
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "28cbb5218f07884",
+  "uid" : "db6c9513429446b3",
   "name" : "test_login2",
   "time" : {
-    "start" : 1574065607232,
-    "stop" : 1574065607340,
-    "duration" : 108
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "faea11e00207c5d8",
-  "name" : "测试护理液加入购物车",
-  "time" : {
-    "start" : 1574065634622,
-    "stop" : 1574065643485,
-    "duration" : 8863
+    "start" : 1574305946563,
+    "stop" : 1574305972346,
+    "duration" : 25783
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6e4eb241ced6ce22",
+  "uid" : "9dd6d456760d4189",
+  "name" : "测试镜片加入购物车",
+  "time" : {
+    "start" : 1574325047476,
+    "stop" : 1574325058222,
+    "duration" : 10746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28eb9baff6656d7e",
+  "name" : "测试定制片加入购物车",
+  "time" : {
+    "start" : 1574325025673,
+    "stop" : 1574325036552,
+    "duration" : 10879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1130745d6a52d7ab",
   "name" : "测试隐形眼镜加入购物车",
   "time" : {
-    "start" : 1574065622892,
-    "stop" : 1574065634602,
-    "duration" : 11710
+    "start" : 1574325005033,
+    "stop" : 1574325017041,
+    "duration" : 12008
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "247796b18ce9fe45",
+  "uid" : "cbe7d7d086eebbc7",
+  "name" : "测试购物车结算",
+  "time" : {
+    "start" : 1574325058232,
+    "stop" : 1574325066512,
+    "duration" : 8280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3397142ea7df0f62",
+  "name" : "测试护理液加入购物车",
+  "time" : {
+    "start" : 1574325017077,
+    "stop" : 1574325025648,
+    "duration" : 8571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f35c7fd414639c15",
+  "name" : "测试登录正常",
+  "time" : {
+    "start" : 1574324997440,
+    "stop" : 1574325005021,
+    "duration" : 7581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec78ab50e27323d3",
   "name" : "test_go_purchase_order",
   "time" : {
     "start" : 1574059216196,
@@ -69,12 +89,22 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "18f46f721ca944dd",
-  "name" : "测试购物车结算",
+  "uid" : "d28ebc4175980f1f",
+  "name" : "测试伴侣盒加入购物车",
   "time" : {
-    "start" : 1574065654863,
-    "stop" : 1574065663137,
-    "duration" : 8274
+    "start" : 1574325036561,
+    "stop" : 1574325047442,
+    "duration" : 10881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "393c7d6b740c42aa",
+  "name" : "测试取消订单",
+  "time" : {
+    "start" : 1574325104396,
+    "stop" : 1574325111536,
+    "duration" : 7140
   },
   "status" : "passed",
   "severity" : "normal"

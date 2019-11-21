@@ -1,26 +1,26 @@
 {
   "total" : 3,
   "items" : [ {
-    "uid" : "92dee1c3a0847afaef3c3018770af08c",
-    "name" : "每日用例-注册",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "52bc88d8927215a8a5fe6952e2f21c77",
     "name" : "每日用例-加购",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 6
+      "total" : 8
+    }
+  }, {
+    "uid" : "92dee1c3a0847afaef3c3018770af08c",
+    "name" : "每日用例-注册",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

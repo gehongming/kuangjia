@@ -37,7 +37,7 @@ class BasePage:
             self.save_web_screenshot(img_doc)
             raise
 
-    #d等待元素存在
+    #等待元素存在
     def wait_eleExist(self,loc,img_doc="",timeout=30,frequency=0.5):
         logger.info("等待元素 {} 存在。".format(loc))
         try:
@@ -54,6 +54,25 @@ class BasePage:
             # 截图 - 哪一个页面哪一个操作导致的失败。+ 当前时间
             self.save_web_screenshot(img_doc)
             raise
+
+# 判断元素是否存在，if判断用
+    def wait_eleExist_true(self, loc, img_doc="", timeout=30, frequency=0.5):
+            logger.info("等待元素 {} 存在。".format(loc))
+            try:
+                # 起始等待的时间 datetime
+                start = datetime.datetime.now()
+                WebDriverWait(self.driver, timeout, frequency).until(EC.presence_of_element_located(loc))
+                # 结束等待的时间
+                end = datetime.datetime.now()
+                logger.info("开始等待时间点：{}，结束等待时间点：{}，等待时长为：{}".
+                                format(start, end, end - start))
+                return True
+            except:
+                # 日志
+                logger.exception("等待元素存在失败：")
+                # 截图 - 哪一个页面哪一个操作导致的失败。+ 当前时间
+                self.save_web_screenshot(img_doc)
+                return False
     # 查找一个元素
     def get_element(self,loc,img_doc=""):
         """

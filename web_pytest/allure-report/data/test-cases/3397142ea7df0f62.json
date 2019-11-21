@@ -1,0 +1,305 @@
+{
+  "uid" : "3397142ea7df0f62",
+  "name" : "测试护理液加入购物车",
+  "fullName" : "Testcases.test_2buy.TestLogin#test_buy_hl",
+  "historyId" : "88af4556d6b2b5a6136a6f6b61eb5134",
+  "time" : {
+    "start" : 1574325017077,
+    "stop" : 1574325025648,
+    "duration" : 8571
+  },
+  "description" : "这是护理液加入购物车的成功用例",
+  "descriptionHtml" : "<p>这是护理液加入购物车的成功用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1574324988803,
+      "stop" : 1574324988804,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1574324988804,
+      "stop" : 1574324997437,
+      "duration" : 8633
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是护理液加入购物车的成功用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "搜索商品",
+      "time" : {
+        "start" : 1574325017077,
+        "stop" : 1574325018147,
+        "duration" : 1070
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'卫康新视多功能隐形眼镜护理液125ml'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击进入护理液商品详情页面",
+      "time" : {
+        "start" : 1574325020151,
+        "stop" : 1574325020829,
+        "duration" : 678
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择隐形眼镜sku，加入购物车",
+      "time" : {
+        "start" : 1574325024898,
+        "stop" : 1574325025067,
+        "duration" : 169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "count",
+        "value" : "'1'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e616ad7a22e53ed6",
+      "name" : "log",
+      "source" : "e616ad7a22e53ed6.txt",
+      "type" : "text/plain",
+      "size" : 2502
+    }, {
+      "uid" : "c457bad87bda49db",
+      "name" : "stderr",
+      "source" : "c457bad87bda49db.txt",
+      "type" : "text/plain",
+      "size" : 3092
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1574325114722,
+      "stop" : 1574325114722,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1574325111538,
+      "stop" : 1574325114718,
+      "duration" : 3180
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "story",
+    "value" : "测试护理液加入购物车"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "16968-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4221d5a0da1c5883",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574162260162,
+        "stop" : 1574162268814,
+        "duration" : 8652
+      }
+    }, {
+      "uid" : "b652fd585fd0541c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574158061120,
+        "stop" : 1574158069422,
+        "duration" : 8302
+      }
+    }, {
+      "uid" : "bd70aecda98d41c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574065634622,
+        "stop" : 1574065643485,
+        "duration" : 8863
+      }
+    }, {
+      "uid" : "e034f9b06ef5813f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574064607605,
+        "stop" : 1574064616593,
+        "duration" : 8988
+      }
+    }, {
+      "uid" : "426f8787a911d67c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574063497981,
+        "stop" : 1574063507106,
+        "duration" : 9125
+      }
+    }, {
+      "uid" : "79714628e40af79a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574062494616,
+        "stop" : 1574062503445,
+        "duration" : 8829
+      }
+    }, {
+      "uid" : "c6984084f3331c6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574062333852,
+        "stop" : 1574062342795,
+        "duration" : 8943
+      }
+    }, {
+      "uid" : "3b1cf369a0a8b0d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574062053997,
+        "stop" : 1574062062472,
+        "duration" : 8475
+      }
+    }, {
+      "uid" : "665648d173028a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061641025,
+        "stop" : 1574061649403,
+        "duration" : 8378
+      }
+    }, {
+      "uid" : "5fadb7a6711be720",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061557784,
+        "stop" : 1574061566281,
+        "duration" : 8497
+      }
+    }, {
+      "uid" : "9fcc9e54f4ba5fa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574061104421,
+        "stop" : 1574061112805,
+        "duration" : 8384
+      }
+    }, {
+      "uid" : "6849b07585bc4abd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574060964760,
+        "stop" : 1574060973825,
+        "duration" : 9065
+      }
+    }, {
+      "uid" : "780940848f1ae2cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574059325458,
+        "stop" : 1574059333972,
+        "duration" : 8514
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "3397142ea7df0f62.json",
+  "parameterValues" : [ ]
+}

@@ -4,5 +4,5 @@ base_url = "https://login.yjq.com/login"
 
 
 
-registered_url = "https://login-test.yjq.com/preRegister"
+registered_url = "https://login.yjq.com/preRegister"
 

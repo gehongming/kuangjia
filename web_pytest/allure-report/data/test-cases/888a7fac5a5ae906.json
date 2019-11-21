@@ -1,0 +1,276 @@
+{
+  "uid" : "888a7fac5a5ae906",
+  "name" : "测试购物车结算",
+  "fullName" : "Testcases.test_2buy.TestLogin#test_dz_orders",
+  "historyId" : "6e92211f2aba10c95760bd2b2282a274",
+  "time" : {
+    "start" : 1574325066537,
+    "stop" : 1574325104373,
+    "duration" : 37836
+  },
+  "description" : "这是定制片加入购物车的成功用例",
+  "descriptionHtml" : "<p>这是定制片加入购物车的成功用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1574324988803,
+      "stop" : 1574324988804,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1574324988804,
+      "stop" : 1574324997437,
+      "duration" : 8633
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是定制片加入购物车的成功用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击进入购物车",
+      "time" : {
+        "start" : 1574325066537,
+        "stop" : 1574325067242,
+        "duration" : 705
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择定制商品，并结算",
+      "time" : {
+        "start" : 1574325068042,
+        "stop" : 1574325100493,
+        "duration" : 32451
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "生成订单",
+      "time" : {
+        "start" : 1574325100793,
+        "stop" : 1574325101354,
+        "duration" : 561
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "messaage",
+        "value" : "'网管查房'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "db7bcee0c5f5aac3",
+      "name" : "log",
+      "source" : "db7bcee0c5f5aac3.txt",
+      "type" : "text/plain",
+      "size" : 3755
+    }, {
+      "uid" : "dde448d4fa111dc2",
+      "name" : "stderr",
+      "source" : "dde448d4fa111dc2.txt",
+      "type" : "text/plain",
+      "size" : 4625
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1574325114722,
+      "stop" : 1574325114722,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1574325111538,
+      "stop" : 1574325114718,
+      "duration" : 3180
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "story",
+    "value" : "测试购物车结算"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "16968-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6a63dd9d69593635",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574324775554,
+        "stop" : 1574324813895,
+        "duration" : 38341
+      }
+    }, {
+      "uid" : "692f2089983ae35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574324653026,
+        "stop" : 1574324693527,
+        "duration" : 40501
+      }
+    }, {
+      "uid" : "a9bbd6436cc10957",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574324512680,
+        "stop" : 1574324552362,
+        "duration" : 39682
+      }
+    }, {
+      "uid" : "d8fea5a505ce3a3f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()=\"丹阳市开发区镜色眼镜店\"]/parent::div/span/label/span/input\"}\n  (Session info: chrome=73.0.3683.103)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1574324100635,
+        "stop" : 1574324104389,
+        "duration" : 3754
+      }
+    }, {
+      "uid" : "d61fefc599f721ef",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()=\"赛目光学\"]/parent::div/span/label/span/input\"}\n  (Session info: chrome=73.0.3683.103)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1574323901907,
+        "stop" : 1574323905160,
+        "duration" : 3253
+      }
+    }, {
+      "uid" : "f2ac68d067d89817",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()=\"赛目光学\"]/parent::div/span/label/span/input\"}\n  (Session info: chrome=73.0.3683.103)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1574323449774,
+        "stop" : 1574323453440,
+        "duration" : 3666
+      }
+    }, {
+      "uid" : "4d3f6b1ce14478b4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1574323273835,
+        "stop" : 1574323304514,
+        "duration" : 30679
+      }
+    }, {
+      "uid" : "70a58795074c3200",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1574323122017,
+        "stop" : 1574323152456,
+        "duration" : 30439
+      }
+    }, {
+      "uid" : "bac11f3eafd29a8a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1574322539863,
+        "stop" : 1574322570319,
+        "duration" : 30456
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "888a7fac5a5ae906.json",
+  "parameterValues" : [ ]
+}

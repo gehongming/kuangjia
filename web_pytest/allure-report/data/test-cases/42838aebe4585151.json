@@ -1,0 +1,151 @@
+{
+  "uid" : "42838aebe4585151",
+  "name" : "测试定制片加入购物车",
+  "fullName" : "Testcases.test_2buy.TestLogin#test_buy_dzp",
+  "historyId" : "981a7a849a41598e717d471c4d94a6aa",
+  "time" : {
+    "start" : 1574323591053,
+    "stop" : 1574323602836,
+    "duration" : 11783
+  },
+  "description" : "这是定制片加入购物车的成功用例",
+  "descriptionHtml" : "<p>这是定制片加入购物车的成功用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "这是定制片加入购物车的成功用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "搜索商品",
+      "time" : {
+        "start" : 1574323591054,
+        "stop" : 1574323592292,
+        "duration" : 1238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'【定制片】酷视远视散光隐形眼镜定制片半年抛1片装'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击进入定制商品详情页面",
+      "time" : {
+        "start" : 1574323594304,
+        "stop" : 1574323594989,
+        "duration" : 685
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择隐形眼镜sku，加入购物车",
+      "time" : {
+        "start" : 1574323599059,
+        "stop" : 1574323601710,
+        "duration" : 2651
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zyy",
+        "value" : "'右眼（R）'"
+      }, {
+        "name" : "qj",
+        "value" : "'+6.00'"
+      }, {
+        "name" : "zj",
+        "value" : "'-0.25'"
+      }, {
+        "name" : "zw",
+        "value" : "'170'"
+      }, {
+        "name" : "c",
+        "value" : "'1'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7ca0ae4281b515a1",
+      "name" : "log",
+      "source" : "7ca0ae4281b515a1.txt",
+      "type" : "text/plain",
+      "size" : 4760
+    }, {
+      "uid" : "a36ea45e68d4ca12",
+      "name" : "stderr",
+      "source" : "a36ea45e68d4ca12.txt",
+      "type" : "text/plain",
+      "size" : 5846
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试定制片加入购物车"
+  }, {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "17984-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "42838aebe4585151.json",
+  "parameterValues" : [ ]
+}

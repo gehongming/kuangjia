@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "AttributeError: 'generator' object has no attribute 'find_element'",
-      "children" : [ {
-        "name" : "test_login2",
-        "uid" : "28cbb5218f07884",
-        "parentUid" : "44f8ca54796ed9dfce8889f14db047d5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1574065607232,
-          "stop" : 1574065607340,
-          "duration" : 108
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "44f8ca54796ed9dfce8889f14db047d5"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

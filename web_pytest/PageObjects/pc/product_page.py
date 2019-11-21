@@ -38,8 +38,22 @@ class ProductPage(BasePage):
     def dz_success(self):
         return self.get_element_text(ppl.success_gwc,'加入购物车成功提示文案')
 
+# 多彩伴侣盒操作加入购物车
+    @allure.step('选择隐形眼镜sku，加入购物车')
+    def banlvhe(self,c):
+        self.input_text(ppl.blh_count, '选择数量', c)
+        time.sleep(2)
+        self.click_element(ppl.join_gwc, '加入购物车')
+    def blh_success(self):
+        return self.get_element_text(ppl.success_gwc,'加入购物车成功提示文案')
 
-
-
+# 镜片操作加入购物车
+    @allure.step('选择隐形眼镜sku，加入购物车')
+    def jingpian(self,c):
+        self.input_text(ppl.jp_count, '选择数量', c)
+        time.sleep(2)
+        self.click_element(ppl.join_gwc, '加入购物车')
+    def jp_success(self):
+        return self.get_element_text(ppl.success_gwc,'加入购物车成功提示文案')
 
 

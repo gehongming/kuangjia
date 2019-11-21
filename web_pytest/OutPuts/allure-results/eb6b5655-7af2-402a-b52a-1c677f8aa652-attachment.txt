@@ -1,0 +1,35 @@
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//input[@class="s-input"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:00:33.423043，结束等待时间点：2019-11-21 16:00:33.450045，等待时长为：0:00:00.027002
+INFO     common.basepage:basepage.py:64 查找 搜索商品 中的元素 ('xpath', '//input[@class="s-input"]') 
+INFO     common.basepage:basepage.py:122  给元素 ('xpath', '//input[@class="s-input"]') 输入文本内容:('【定制片】酷视远视散光隐形眼镜定制片半年抛1片装', '\ue007')
+INFO     common.basepage:basepage.py:197 点击('xpath', '//a[@href="https://www.yjq.com/product/1544773746114.html"]')元素，出现进入定制商品详情页面并切换窗口弹框
+INFO     common.basepage:basepage.py:198 获取窗口数。
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[@href="https://www.yjq.com/product/1544773746114.html"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:00:36.821382，结束等待时间点：2019-11-21 16:00:36.886389，等待时长为：0:00:00.065007
+INFO     common.basepage:basepage.py:64 查找 进入定制商品详情页面并切换窗口 中的元素 ('xpath', '//a[@href="https://www.yjq.com/product/1544773746114.html"]') 
+INFO     common.basepage:basepage.py:89  点击元素 ('xpath', '//a[@href="https://www.yjq.com/product/1544773746114.html"]')
+INFO     common.basepage:basepage.py:203 进入新页面
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//td[@attributename="左右眼"]/input') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:00:41.605861，结束等待时间点：2019-11-21 16:00:41.646865，等待时长为：0:00:00.041004
+INFO     common.basepage:basepage.py:64 查找 选择左右眼 中的元素 ('xpath', '//td[@attributename="左右眼"]/input') 
+INFO     common.basepage:basepage.py:122  给元素 ('xpath', '//td[@attributename="左右眼"]/input') 输入文本内容:('右眼（R）',)
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//td[@attributename="定制球镜"]/input') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:00:41.718872，结束等待时间点：2019-11-21 16:00:41.744875，等待时长为：0:00:00.026003
+INFO     common.basepage:basepage.py:64 查找 选择定制球镜 中的元素 ('xpath', '//td[@attributename="定制球镜"]/input') 
+INFO     common.basepage:basepage.py:122  给元素 ('xpath', '//td[@attributename="定制球镜"]/input') 输入文本内容:('+6.00',)
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//td[@attributename="定制柱镜"]/input') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:00:41.838884，结束等待时间点：2019-11-21 16:00:41.865887，等待时长为：0:00:00.027003
+INFO     common.basepage:basepage.py:64 查找 选择定制柱镜 中的元素 ('xpath', '//td[@attributename="定制柱镜"]/input') 
+INFO     common.basepage:basepage.py:122  给元素 ('xpath', '//td[@attributename="定制柱镜"]/input') 输入文本内容:('-0.25',)
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//td[@attributename="轴位"]/input') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:00:41.938894，结束等待时间点：2019-11-21 16:00:41.992900，等待时长为：0:00:00.054006
+INFO     common.basepage:basepage.py:64 查找 选择轴位 中的元素 ('xpath', '//td[@attributename="轴位"]/input') 
+INFO     common.basepage:basepage.py:122  给元素 ('xpath', '//td[@attributename="轴位"]/input') 输入文本内容:('170',)
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//input[@class="skuNum"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:00:42.069907，结束等待时间点：2019-11-21 16:00:42.102911，等待时长为：0:00:00.033004
+INFO     common.basepage:basepage.py:64 查找 选择数量 中的元素 ('xpath', '//input[@class="skuNum"]') 
+INFO     common.basepage:basepage.py:122  给元素 ('xpath', '//input[@class="skuNum"]') 输入文本内容:('1',)
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="add-car"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:00:44.147115，结束等待时间点：2019-11-21 16:00:44.233124，等待时长为：0:00:00.086009
+INFO     common.basepage:basepage.py:64 查找 加入购物车 中的元素 ('xpath', '//button[@class="add-car"]') 
+INFO     common.basepage:basepage.py:89  点击元素 ('xpath', '//button[@class="add-car"]')

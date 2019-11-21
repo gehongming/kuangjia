@@ -1,0 +1,107 @@
+{
+  "uid" : "e4f5963152e7cc54",
+  "name" : "测试登录正常",
+  "fullName" : "Testcases.test_2buy.TestLogin#test_login",
+  "historyId" : "a404df02f600ced5f37d055b093f39d6",
+  "time" : {
+    "start" : 1574234922103,
+    "stop" : 1574234922103,
+    "duration" : 0
+  },
+  "description" : "这是验证码登录的成功用例",
+  "descriptionHtml" : "<p>这是验证码登录的成功用例</p>\n",
+  "status" : "broken",
+  "statusMessage" : "PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\\\B2B\\\\OutPuts\\\\log\\\\Web_Autotest_2019-11-20 1528.log'",
+  "statusTrace" : "@pytest.fixture(scope=\"session\",autouse=True)  #默认调用\n    def session_action():\n        print(\"===== 会话开始，测试用例开始执行=====\")\n        #清除测试报告、截图目录\n>       remove_files_in_dir(contants.reports_log)\n\nconftest.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndir = 'D:\\\\B2B\\\\OutPuts\\\\log'\n\n    def remove_files_in_dir(dir):\n        files = os.listdir(dir)\n        for item in files:\n            c_path = os.path.join(dir,item)\n            if os.path.isdir(c_path):\n                remove_files_in_dir(c_path)\n            else:\n>               os.remove(c_path)\nE               PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\\\B2B\\\\OutPuts\\\\log\\\\Web_Autotest_2019-11-20 1528.log'\n\n..\\common\\delete_history.py:12: PermissionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1574234922105,
+      "stop" : 1574234922224,
+      "duration" : 119
+    },
+    "status" : "broken",
+    "statusMessage" : "PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\\\B2B\\\\OutPuts\\\\log\\\\Web_Autotest_2019-11-20 1528.log'\n",
+    "statusTrace" : "  File \"E:\\Python3\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"E:\\Python3\\lib\\site-packages\\_pytest\\fixtures.py\", line 937, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"E:\\Python3\\lib\\site-packages\\_pytest\\fixtures.py\", line 790, in call_fixture_func\n    res = next(it)\n  File \"D:\\B2B\\Testcases\\conftest.py\", line 24, in session_action\n    remove_files_in_dir(contants.reports_log)\n  File \"D:\\B2B\\common\\delete_history.py\", line 12, in remove_files_in_dir\n    os.remove(c_path)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "这是验证码登录的成功用例",
+    "status" : "broken",
+    "statusMessage" : "PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\\\B2B\\\\OutPuts\\\\log\\\\Web_Autotest_2019-11-20 1528.log'",
+    "statusTrace" : "@pytest.fixture(scope=\"session\",autouse=True)  #默认调用\n    def session_action():\n        print(\"===== 会话开始，测试用例开始执行=====\")\n        #清除测试报告、截图目录\n>       remove_files_in_dir(contants.reports_log)\n\nconftest.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndir = 'D:\\\\B2B\\\\OutPuts\\\\log'\n\n    def remove_files_in_dir(dir):\n        files = os.listdir(dir)\n        for item in files:\n            c_path = os.path.join(dir,item)\n            if os.path.isdir(c_path):\n                remove_files_in_dir(c_path)\n            else:\n>               os.remove(c_path)\nE               PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\\\B2B\\\\OutPuts\\\\log\\\\Web_Autotest_2019-11-20 1528.log'\n\n..\\common\\delete_history.py:12: PermissionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "df47ededbdbdc2cf",
+      "name" : "stdout",
+      "source" : "df47ededbdbdc2cf.txt",
+      "type" : "text/plain",
+      "size" : 51
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "42280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "www.baidu.com",
+    "url" : "www.baidu.com",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "e4f5963152e7cc54.json",
+  "parameterValues" : [ ]
+}

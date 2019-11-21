@@ -27,9 +27,10 @@ def get_logger(name):
 
     # 收集日志
     return logger
+if __name__ == '__main__':
 
-# logger = get_logger('case')
-# logger.info('测试开始啦')
-# logger.error('测试报错')
-# logger.debug('测试数据')
-# logger.info('测试结束')
+    logger = get_logger(__name__)
+    logger.info('测试开始啦')
+    logger.error('测试报错')
+    logger.debug('测试数据')
+    logger.info('测试结束')

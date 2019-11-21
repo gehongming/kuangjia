@@ -1,0 +1,86 @@
+INFO     common.basepage:basepage.py:83 查找 进入待付款列表 中的元素 ('xpath', '//li[text()="待付款"]') 
+INFO     common.basepage:basepage.py:125  点击元素 ('xpath', '//li[text()="待付款"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//li[text()="待付款"]/span[@class="ml4 colorRed"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:26:54.193015，结束等待时间点：2019-11-21 16:26:54.233015，等待时长为：0:00:00.040000
+INFO     common.basepage:basepage.py:83 查找 获取待付款数字 中的元素 ('xpath', '//li[text()="待付款"]/span[@class="ml4 colorRed"]') 
+INFO     common.basepage:basepage.py:188 获取元素 ('xpath', '//li[text()="待付款"]/span[@class="ml4 colorRed"]') 的文件值为:10
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[text()="取消订单"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:26:54.258015，结束等待时间点：2019-11-21 16:26:54.319015，等待时长为：0:00:00.061000
+INFO     common.basepage:basepage.py:83 查找 取消订单 中的元素 ('xpath', '//a[text()="取消订单"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//a[text()="取消订单"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:26:54.443015，结束等待时间点：2019-11-21 16:26:55.015015，等待时长为：0:00:00.572000
+INFO     common.basepage:basepage.py:83 查找 确认 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[text()="取消订单"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:26:55.591015，结束等待时间点：2019-11-21 16:26:55.614015，等待时长为：0:00:00.023000
+INFO     common.basepage:basepage.py:83 查找 取消订单 中的元素 ('xpath', '//a[text()="取消订单"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//a[text()="取消订单"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:26:55.679015，结束等待时间点：2019-11-21 16:26:56.236015，等待时长为：0:00:00.557000
+INFO     common.basepage:basepage.py:83 查找 确认 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[text()="取消订单"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:26:56.798015，结束等待时间点：2019-11-21 16:26:56.824015，等待时长为：0:00:00.026000
+INFO     common.basepage:basepage.py:83 查找 取消订单 中的元素 ('xpath', '//a[text()="取消订单"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//a[text()="取消订单"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:26:56.898015，结束等待时间点：2019-11-21 16:26:57.468015，等待时长为：0:00:00.570000
+INFO     common.basepage:basepage.py:83 查找 确认 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[text()="取消订单"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:26:58.030015，结束等待时间点：2019-11-21 16:26:58.056015，等待时长为：0:00:00.026000
+INFO     common.basepage:basepage.py:83 查找 取消订单 中的元素 ('xpath', '//a[text()="取消订单"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//a[text()="取消订单"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:26:58.132015，结束等待时间点：2019-11-21 16:26:58.695015，等待时长为：0:00:00.563000
+INFO     common.basepage:basepage.py:83 查找 确认 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[text()="取消订单"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:26:59.261015，结束等待时间点：2019-11-21 16:26:59.287015，等待时长为：0:00:00.026000
+INFO     common.basepage:basepage.py:83 查找 取消订单 中的元素 ('xpath', '//a[text()="取消订单"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//a[text()="取消订单"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:26:59.367015，结束等待时间点：2019-11-21 16:26:59.992015，等待时长为：0:00:00.625000
+INFO     common.basepage:basepage.py:83 查找 确认 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[text()="取消订单"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:27:00.558015，结束等待时间点：2019-11-21 16:27:00.580015，等待时长为：0:00:00.022000
+INFO     common.basepage:basepage.py:83 查找 取消订单 中的元素 ('xpath', '//a[text()="取消订单"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//a[text()="取消订单"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:27:00.657015，结束等待时间点：2019-11-21 16:27:01.208015，等待时长为：0:00:00.551000
+INFO     common.basepage:basepage.py:83 查找 确认 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[text()="取消订单"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:27:01.767015，结束等待时间点：2019-11-21 16:27:01.792015，等待时长为：0:00:00.025000
+INFO     common.basepage:basepage.py:83 查找 取消订单 中的元素 ('xpath', '//a[text()="取消订单"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//a[text()="取消订单"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:27:01.867015，结束等待时间点：2019-11-21 16:27:02.428015，等待时长为：0:00:00.561000
+INFO     common.basepage:basepage.py:83 查找 确认 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[text()="取消订单"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:27:02.998015，结束等待时间点：2019-11-21 16:27:03.026015，等待时长为：0:00:00.028000
+INFO     common.basepage:basepage.py:83 查找 取消订单 中的元素 ('xpath', '//a[text()="取消订单"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//a[text()="取消订单"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:27:03.098015，结束等待时间点：2019-11-21 16:27:03.658015，等待时长为：0:00:00.560000
+INFO     common.basepage:basepage.py:83 查找 确认 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[text()="取消订单"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:27:04.217015，结束等待时间点：2019-11-21 16:27:04.243015，等待时长为：0:00:00.026000
+INFO     common.basepage:basepage.py:83 查找 取消订单 中的元素 ('xpath', '//a[text()="取消订单"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//a[text()="取消订单"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:27:04.318015，结束等待时间点：2019-11-21 16:27:04.880015，等待时长为：0:00:00.562000
+INFO     common.basepage:basepage.py:83 查找 确认 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//a[text()="取消订单"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:27:05.466015，结束等待时间点：2019-11-21 16:27:05.495015，等待时长为：0:00:00.029000
+INFO     common.basepage:basepage.py:83 查找 取消订单 中的元素 ('xpath', '//a[text()="取消订单"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//a[text()="取消订单"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-11-21 16:27:05.565015，结束等待时间点：2019-11-21 16:27:06.125015，等待时长为：0:00:00.560000
+INFO     common.basepage:basepage.py:83 查找 确认 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary ant-btn-sm"]')

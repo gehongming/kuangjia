@@ -30,7 +30,7 @@ reports_html=os.path.join(base_dir,'OutPuts\\reports')
 reports_log=os.path.join(base_dir,'OutPuts\\log')
 #截图
 reports_screen=os.path.join(base_dir,'OutPuts\\screenshots')
-# print(reports_html)
+# print(reports_screen)
 #日志目录
 log_dir=os.path.join(base_dir,'OutPuts\\log')
 # print(log_dir)

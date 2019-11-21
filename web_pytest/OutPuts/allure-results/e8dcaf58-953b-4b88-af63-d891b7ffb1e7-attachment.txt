@@ -1,0 +1,10 @@
+2019-11-20 17:40:47,726 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@name="phone1"]') 可见。 - [basepage.py:24 ]
+2019-11-20 17:41:18,129 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:35 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-11-20 17:41:19,037 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/输入手机号_2019-11-20 17_41_18.png - [basepage.py:184 ]

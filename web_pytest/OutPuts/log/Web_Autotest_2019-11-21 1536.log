@@ -1,0 +1,64 @@
+2019-11-21 15:36:51,255 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@name="phone"]') 可见。 - [basepage.py:24 ]
+2019-11-21 15:36:51,290 -  common.basepage -INFO - 开始等待时间点：2019-11-21 15:36:51.255020，结束等待时间点：2019-11-21 15:36:51.289020，等待时长为：0:00:00.034000 - [basepage.py:32 ]
+2019-11-21 15:36:51,290 -  common.basepage -INFO - 查找 输入手机号 中的元素 ('xpath', '//input[@name="phone"]')  - [basepage.py:64 ]
+2019-11-21 15:36:51,303 -  common.basepage -INFO -  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('17625188013',) - [basepage.py:122 ]
+2019-11-21 15:36:51,438 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@name="phoneCode"]') 可见。 - [basepage.py:24 ]
+2019-11-21 15:36:51,470 -  common.basepage -INFO - 开始等待时间点：2019-11-21 15:36:51.439020，结束等待时间点：2019-11-21 15:36:51.470020，等待时长为：0:00:00.031000 - [basepage.py:32 ]
+2019-11-21 15:36:51,470 -  common.basepage -INFO - 查找 输入验证码 中的元素 ('xpath', '//input[@name="phoneCode"]')  - [basepage.py:64 ]
+2019-11-21 15:36:51,482 -  common.basepage -INFO -  给元素 ('xpath', '//input[@name="phoneCode"]') 输入文本内容:('sD2q',) - [basepage.py:122 ]
+2019-11-21 15:36:51,548 -  common.basepage -INFO - 等待元素 ('xpath', '//a[@class="login"]') 可见。 - [basepage.py:24 ]
+2019-11-21 15:36:51,574 -  common.basepage -INFO - 开始等待时间点：2019-11-21 15:36:51.548020，结束等待时间点：2019-11-21 15:36:51.574020，等待时长为：0:00:00.026000 - [basepage.py:32 ]
+2019-11-21 15:36:51,574 -  common.basepage -INFO - 查找 登录 中的元素 ('xpath', '//a[@class="login"]')  - [basepage.py:64 ]
+2019-11-21 15:36:51,582 -  common.basepage -INFO -  点击元素 ('xpath', '//a[@class="login"]') - [basepage.py:89 ]
+2019-11-21 15:36:58,755 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@class="s-input"]') 可见。 - [basepage.py:24 ]
+2019-11-21 15:36:58,781 -  common.basepage -INFO - 开始等待时间点：2019-11-21 15:36:58.755020，结束等待时间点：2019-11-21 15:36:58.781020，等待时长为：0:00:00.026000 - [basepage.py:32 ]
+2019-11-21 15:36:58,781 -  common.basepage -INFO - 查找 搜索商品 中的元素 ('xpath', '//input[@class="s-input"]')  - [basepage.py:64 ]
+2019-11-21 15:36:58,788 -  common.basepage -INFO -  给元素 ('xpath', '//input[@class="s-input"]') 输入文本内容:('3N还原仪清洗仓', '\ue007') - [basepage.py:122 ]
+2019-11-21 15:37:01,750 -  common.basepage -INFO - 点击('xpath', '//a[@href="https://www.yjq.com/product/1544773749673.html]"')元素，出现进入伴侣盒商品详情页面并切换窗口弹框 - [basepage.py:197 ]
+2019-11-21 15:37:01,750 -  common.basepage -INFO - 获取窗口数。 - [basepage.py:198 ]
+2019-11-21 15:37:01,750 -  common.basepage -INFO - 等待元素 ('xpath', '//a[@href="https://www.yjq.com/product/1544773749673.html]"') 可见。 - [basepage.py:24 ]
+2019-11-21 15:37:32,122 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:35 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-11-21 15:37:32,518 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/进入伴侣盒商品详情页面并切换窗口_2019-11-21 15_37_32.png - [basepage.py:184 ]
+2019-11-21 15:37:32,619 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@class="s-input"]') 可见。 - [basepage.py:24 ]
+2019-11-21 15:38:03,140 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:35 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-11-21 15:38:03,557 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/搜索商品_2019-11-21 15_38_03.png - [basepage.py:184 ]
+2019-11-21 15:38:03,610 -  common.basepage -INFO - 等待元素 ('xpath', '//a[@href="https://cart.yjq.com/shoppingCart"]') 可见。 - [basepage.py:24 ]
+2019-11-21 15:38:34,067 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:35 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-11-21 15:38:34,494 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/进入购物车_2019-11-21 15_38_34.png - [basepage.py:184 ]
+2019-11-21 15:38:34,727 -  common.basepage -INFO - 查找 进入待付款列表 中的元素 ('xpath', '//li[text()="待付款"]')  - [basepage.py:64 ]
+2019-11-21 15:38:34,765 -  common.basepage -ERROR - 查找元素失败 - [basepage.py:70 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 66, in get_element
+    ele = self.driver.find_element(*loc)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[text()="待付款"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-11-21 15:38:35,175 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/进入待付款列表_2019-11-21 15_38_34.png - [basepage.py:184 ]

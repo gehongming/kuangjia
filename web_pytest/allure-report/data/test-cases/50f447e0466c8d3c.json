@@ -1,0 +1,183 @@
+{
+  "uid" : "50f447e0466c8d3c",
+  "name" : "测试登录正常",
+  "fullName" : "Testcases.test_2buy.TestLogin#test_login",
+  "historyId" : "a404df02f600ced5f37d055b093f39d6",
+  "time" : {
+    "start" : 1574245306595,
+    "stop" : 1574245316663,
+    "duration" : 10068
+  },
+  "description" : "这是验证码登录的成功用例",
+  "descriptionHtml" : "<p>这是验证码登录的成功用例</p>\n",
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "self = <Testcases.test_2buy.TestLogin object at 0x0000000004DB1C50>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"53a03be8045478f1970ad7b99aba7918\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是验证码登录的成功用例')\n    @allure.link('www.baidu.com')\n    def test_login(self,open_url1):\n        try:\n            lp(open_url1).login_code(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n            time.sleep(5)\n>           assert False == ip(open_url1).login_check()\nE           AssertionError: assert False == True\nE             -False\nE             +True\n\ntest_2buy.py:36: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <Testcases.test_2buy.TestLogin object at 0x0000000004DB1C50>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"53a03be8045478f1970ad7b99aba7918\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是验证码登录的成功用例')\n    @allure.link('www.baidu.com')\n    def test_login(self,open_url1):\n        try:\n            lp(open_url1).login_code(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n            time.sleep(5)\n            assert False == ip(open_url1).login_check()\n        except AssertionError as e:\n            Filelist = get_filelist(contants.reports_screen)\n>           with open(Filelist[0], \"rb\") as f:\nE           IndexError: list index out of range\n\ntest_2buy.py:39: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1574245298928,
+      "stop" : 1574245298929,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1574245298929,
+      "stop" : 1574245306593,
+      "duration" : 7664
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是验证码登录的成功用例",
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "self = <Testcases.test_2buy.TestLogin object at 0x0000000004DB1C50>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"53a03be8045478f1970ad7b99aba7918\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是验证码登录的成功用例')\n    @allure.link('www.baidu.com')\n    def test_login(self,open_url1):\n        try:\n            lp(open_url1).login_code(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n            time.sleep(5)\n>           assert False == ip(open_url1).login_check()\nE           AssertionError: assert False == True\nE             -False\nE             +True\n\ntest_2buy.py:36: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <Testcases.test_2buy.TestLogin object at 0x0000000004DB1C50>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"53a03be8045478f1970ad7b99aba7918\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是验证码登录的成功用例')\n    @allure.link('www.baidu.com')\n    def test_login(self,open_url1):\n        try:\n            lp(open_url1).login_code(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n            time.sleep(5)\n            assert False == ip(open_url1).login_check()\n        except AssertionError as e:\n            Filelist = get_filelist(contants.reports_screen)\n>           with open(Filelist[0], \"rb\") as f:\nE           IndexError: list index out of range\n\ntest_2buy.py:39: IndexError",
+    "steps" : [ {
+      "name" : "验证码登录",
+      "time" : {
+        "start" : 1574245306596,
+        "stop" : 1574245307203,
+        "duration" : 607
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'17625188013'"
+      }, {
+        "name" : "passwd",
+        "value" : "'sD2q'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9a692dfb21515b4d",
+      "name" : "log",
+      "source" : "9a692dfb21515b4d.txt",
+      "type" : "text/plain",
+      "size" : 1497
+    }, {
+      "uid" : "e545666acb70b28c",
+      "name" : "stdout",
+      "source" : "e545666acb70b28c.txt",
+      "type" : "text/plain",
+      "size" : 51
+    }, {
+      "uid" : "f17b77f3f5f8d99e",
+      "name" : "stderr",
+      "source" : "f17b77f3f5f8d99e.txt",
+      "type" : "text/plain",
+      "size" : 1870
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1574245331662,
+      "stop" : 1574245331662,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1574245328445,
+      "stop" : 1574245331660,
+      "duration" : 3215
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "40244-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "www.baidu.com",
+    "url" : "www.baidu.com",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "50f447e0466c8d3c.json",
+  "parameterValues" : [ ]
+}

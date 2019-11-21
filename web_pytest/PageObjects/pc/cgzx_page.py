@@ -16,7 +16,7 @@ class CgzxPage(BasePage):
         for i in range (1,a+1):
             self.click_element(cpl.cancel_order,'取消订单')
             self.click_element(cpl.yes,'确认')
-            time.sleep(0.3)
+            time.sleep(0.5)
 
 
     def cancel_order_no(self):

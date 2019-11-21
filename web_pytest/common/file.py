@@ -1,7 +1,7 @@
 #__author__="G"
 #date: 2019/11/14
 
-from web_pytest.common import contants
+from common import contants
 import os
 
 def get_filelist(dir):
@@ -13,11 +13,11 @@ def get_filelist(dir):
 
         # 文件名列表，包含完整路径
 
-            # Filelist.append(os.path.join(home, filename))
+            Filelist.append(os.path.join(home, filename))
 
             # 文件名列表，只包含文件名
 
-            Filelist.append(filename)
+            # Filelist.append(filename)
 
     return Filelist
 
