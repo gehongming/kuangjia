@@ -4,7 +4,7 @@ import ddt
 
 from web_unittest.PageObjects.login_page import LoginPage
 from web_unittest.PageObjects.index_page import IndexPage
-from web_unittest.TestDatas import demo_datas as ld
+from web_unittest.TestDatas import login_datas as ld
 from web_unittest.TestDatas import common_datas as cd
 
 @ddt.ddt

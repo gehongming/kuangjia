@@ -7,7 +7,7 @@ import  time
 from web_unittest.PageObjects.login_page import LoginPage
 from web_unittest.PageObjects.user_page import UserPage
 from web_unittest.PageObjects.index_page import IndexPage
-from web_unittest.PageObjects.demo_page import BidPage
+from web_unittest.PageObjects.bid_page import  BidPage
 from web_unittest.TestDatas import invest_datas as id
 from web_unittest.TestDatas import common_datas as cd
 
