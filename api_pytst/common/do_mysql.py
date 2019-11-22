@@ -37,5 +37,5 @@ if __name__ == '__main__':
     # result1=mysql.fetch_one('SELECT * FROM sms_db_13.t_mvcode_info_0 WHERE Fmobile_no="17625188013"')
     # print(result1)
     result2=mysql.fetch_one("SELECT * FROM sms_db_13.t_mvcode_info_0 WHERE Fmobile_no='17625188013'")
-    print(result2[2])
+    print(result2)
     mysql.close()

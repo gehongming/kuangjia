@@ -36,7 +36,7 @@ log_dir=os.path.join(base_dir,'OutPuts//log')
 # print(log_dir)
 #截图
 screenshot_dir = os.path.join(base_dir,"Outputs//screenshots")
-# print(screenshot_dir)
+print(screenshot_dir)
 
 
 

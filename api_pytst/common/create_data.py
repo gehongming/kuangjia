@@ -1,8 +1,8 @@
-from faker import Faker
+# from faker import Faker
 from api_pytst.common.contants import *
 import random
-import socket
-import struct
+# import socket
+# import struct
 from faker import Faker
 from datetime import date
 from datetime import timedelta
