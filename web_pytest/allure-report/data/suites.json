@@ -9,7 +9,7 @@
         "name" : "TestLogin",
         "children" : [ {
           "name" : "test_go_purchase_order",
-          "uid" : "ec78ab50e27323d3",
+          "uid" : "7efeb5d8484c6ba0",
           "parentUid" : "78fa1316c8f69b5fa8c7f9cd07fdb53d",
           "status" : "passed",
           "time" : {
@@ -22,7 +22,7 @@
           "parameters" : [ ]
         }, {
           "name" : "测试登录正常",
-          "uid" : "f35c7fd414639c15",
+          "uid" : "25619b065614016",
           "parentUid" : "78fa1316c8f69b5fa8c7f9cd07fdb53d",
           "status" : "passed",
           "time" : {
@@ -35,7 +35,7 @@
           "parameters" : [ ]
         }, {
           "name" : "测试隐形眼镜加入购物车",
-          "uid" : "1130745d6a52d7ab",
+          "uid" : "3d004a98ee780be5",
           "parentUid" : "78fa1316c8f69b5fa8c7f9cd07fdb53d",
           "status" : "passed",
           "time" : {
@@ -48,7 +48,7 @@
           "parameters" : [ ]
         }, {
           "name" : "测试护理液加入购物车",
-          "uid" : "3397142ea7df0f62",
+          "uid" : "4248d4433b8a1356",
           "parentUid" : "78fa1316c8f69b5fa8c7f9cd07fdb53d",
           "status" : "passed",
           "time" : {
@@ -61,7 +61,7 @@
           "parameters" : [ ]
         }, {
           "name" : "测试定制片加入购物车",
-          "uid" : "28eb9baff6656d7e",
+          "uid" : "6b7704f5f0684607",
           "parentUid" : "78fa1316c8f69b5fa8c7f9cd07fdb53d",
           "status" : "passed",
           "time" : {
@@ -74,7 +74,7 @@
           "parameters" : [ ]
         }, {
           "name" : "测试伴侣盒加入购物车",
-          "uid" : "d28ebc4175980f1f",
+          "uid" : "9164f81988db869b",
           "parentUid" : "78fa1316c8f69b5fa8c7f9cd07fdb53d",
           "status" : "passed",
           "time" : {
@@ -87,7 +87,7 @@
           "parameters" : [ ]
         }, {
           "name" : "测试镜片加入购物车",
-          "uid" : "9dd6d456760d4189",
+          "uid" : "25652d7fc30615b2",
           "parentUid" : "78fa1316c8f69b5fa8c7f9cd07fdb53d",
           "status" : "passed",
           "time" : {
@@ -100,7 +100,7 @@
           "parameters" : [ ]
         }, {
           "name" : "测试购物车结算",
-          "uid" : "cbe7d7d086eebbc7",
+          "uid" : "ad5d077b45c45338",
           "parentUid" : "78fa1316c8f69b5fa8c7f9cd07fdb53d",
           "status" : "passed",
           "time" : {
@@ -113,7 +113,7 @@
           "parameters" : [ ]
         }, {
           "name" : "测试购物车结算",
-          "uid" : "888a7fac5a5ae906",
+          "uid" : "db95f92a6ab69234",
           "parentUid" : "78fa1316c8f69b5fa8c7f9cd07fdb53d",
           "status" : "passed",
           "time" : {
@@ -126,7 +126,7 @@
           "parameters" : [ ]
         }, {
           "name" : "测试取消订单",
-          "uid" : "393c7d6b740c42aa",
+          "uid" : "5f0f8dd0acb7de1b",
           "parentUid" : "78fa1316c8f69b5fa8c7f9cd07fdb53d",
           "status" : "passed",
           "time" : {
@@ -147,7 +147,7 @@
         "name" : "TestLogin",
         "children" : [ {
           "name" : "test_login2",
-          "uid" : "db6c9513429446b3",
+          "uid" : "eb0fd2b8e1cd0c90",
           "parentUid" : "71f0ad11cff5e51cf22e24936e7e229c",
           "status" : "passed",
           "time" : {
@@ -164,5 +164,134 @@
       "uid" : "57b4fb1ad1d27b6c459f3b085f7cd5ac"
     } ],
     "uid" : "edcb6c5622d59303d279a449ab2d3a2b"
+  }, {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_2buy",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "测试登录正常",
+          "uid" : "e1fbb8603d417506",
+          "parentUid" : "600caca4e98501f777034a009331bf09",
+          "status" : "broken",
+          "time" : {
+            "start" : 1576595093370,
+            "stop" : 1576595093370,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试隐形眼镜加入购物车",
+          "uid" : "5a56babc80410f92",
+          "parentUid" : "600caca4e98501f777034a009331bf09",
+          "status" : "broken",
+          "time" : {
+            "start" : 1576595098047,
+            "stop" : 1576595098047,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试护理液加入购物车",
+          "uid" : "cd0a65c3f067d344",
+          "parentUid" : "600caca4e98501f777034a009331bf09",
+          "status" : "broken",
+          "time" : {
+            "start" : 1576595098136,
+            "stop" : 1576595098136,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试定制片加入购物车",
+          "uid" : "904c850a4ac39ba5",
+          "parentUid" : "600caca4e98501f777034a009331bf09",
+          "status" : "broken",
+          "time" : {
+            "start" : 1576595098224,
+            "stop" : 1576595098224,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试伴侣盒加入购物车",
+          "uid" : "6403bc7d8daa12e1",
+          "parentUid" : "600caca4e98501f777034a009331bf09",
+          "status" : "broken",
+          "time" : {
+            "start" : 1576595098317,
+            "stop" : 1576595098317,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试镜片加入购物车",
+          "uid" : "e5a2e82e97ffe066",
+          "parentUid" : "600caca4e98501f777034a009331bf09",
+          "status" : "broken",
+          "time" : {
+            "start" : 1576595098417,
+            "stop" : 1576595098417,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试购物车结算",
+          "uid" : "ea7200fd8f1e3d28",
+          "parentUid" : "600caca4e98501f777034a009331bf09",
+          "status" : "broken",
+          "time" : {
+            "start" : 1576595098508,
+            "stop" : 1576595098508,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试购物车结算",
+          "uid" : "99375a04f69d547f",
+          "parentUid" : "600caca4e98501f777034a009331bf09",
+          "status" : "broken",
+          "time" : {
+            "start" : 1576595098601,
+            "stop" : 1576595098601,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试取消订单",
+          "uid" : "d8f3a55fee6c648e",
+          "parentUid" : "600caca4e98501f777034a009331bf09",
+          "status" : "broken",
+          "time" : {
+            "start" : 1576595098692,
+            "stop" : 1576595098692,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "600caca4e98501f777034a009331bf09"
+      } ],
+      "uid" : "6a721dba52a9359871ea73b00c132c4a"
+    } ],
+    "uid" : "0408d924bc3d43de55080f45620fd22e"
   } ]
 }

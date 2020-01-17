@@ -75,11 +75,11 @@ if __name__=='__main__':
   # G.http_request(url,main,'GET')
   # print(G)
   # # 登录
-  url = 'http://test.lemonban.com/futureloan/mvc/api/member/login'
-  main = {'mobilephone': '', 'pwd': ''}
-  # G=HttpCookies()
-  b=HttpCookies().http_request(url,main,'post')
-  print(b)
+  # url = 'http://test.lemonban.com/futureloan/mvc/api/member/login'
+  # main = {'mobilephone': '', 'pwd': ''}
+  # # G=HttpCookies()
+  # b=HttpCookies().http_request(url,main,'post')
+  # print(b)
   #
   # #充值
   # main = {"mobilephone": "18861342700", "amount": "1000"}
@@ -91,5 +91,10 @@ if __name__=='__main__':
   # main = {"mobilephone": "18861342700", "amount": "1000"}
   # url='http://test.lemonban.com/futureloan/mvc/api/member/withdraw'
   # G=HttpCookies()
-  # d=G.http_request(url,main,'post',b)
+  # d=G.http_request(url,main,'post')
   # print(d)
+    url = 'http://120.78.128.25:8766/futureloan/member/login'
+    main = {"mobile_phone": "13998889999", "pwd": "12345688"}
+    header = {"Content-Type":"application/json","X-Lemonban-Media-Type":"lemonban.v1"}
+    b = HttpCookies().http_request(url, main, 'post',headers=header)
+    print(b)
