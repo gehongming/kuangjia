@@ -1,0 +1,362 @@
+- actual: 获取到动态密码(登录密码)
+  case_id: 1
+  check_sql:
+    sql_1: SELECT TOP 1 * FROM SigoCN.dbo.Sigocn_UserSMSVF WHERE VFUName='#phone#'
+      ORDER BY AddTime desc
+  data:
+    object_value: '#phone#'
+    picCode: null
+    sourcechannel: WeiXin
+    type: phone
+  expected: 获取到动态密码(登录密码)
+  headers:
+    Content-Type: application/json;charset=UTF-8
+  method: post
+  result: Pass
+  title: 成功发送短信验证码
+  url: https://login.m.vsigo.cn/b2c_sso/comm/getnewverificationcode
+- actual:
+    data:
+      is_through: false
+      reminder: 验证码已失效
+    error_code: 10002
+    error_message: 验证码已失效
+  case_id: 2
+  check_sql: null
+  data:
+    dynamic_pass: '#SMS#'
+    mark: '#mark#'
+    phone: '#phone#'
+    sourcechannel: wap
+    userfrom": direct
+  expected: sigo20180201461673
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: 'FALSE'
+  title: 手机验证码登录
+  url: https://api.vsigo.cn/b2c_sso/login/phoneanddynmicpassword
+- actual: sigo20180201461673
+  case_id: 3
+  check_sql: null
+  data:
+    password: '#passwd#'
+    sourcechannel: wap
+    username: '#phone#'
+  expected: sigo20180201461673
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 手机密码登录
+  url: https://api.vsigo.cn/b2c_sso/login/usernameandpassword
+- actual: 200
+  case_id: 4
+  check_sql: null
+  data:
+    filter:
+      must: []
+      must_not: []
+      should: []
+    keyword: 强生
+    pageindex: 0
+    pagesize: 40
+    sort: default
+    sourcechannel: wap
+  expected: 200
+  headers:
+    Content-Type: application/json;charset=UTF-8
+  method: post
+  result: Pass
+  title: 搜索
+  url: https://m.vsigo.cn/b2c_search/item/itemsearch
+- actual: 加入购物车成功
+  case_id: 5
+  check_sql: null
+  data:
+    ItemList:
+    - Axis: null
+      BuyCount: 1
+      CYL: null
+      ItemId: 10004240
+      ProductId: 0
+      RuleId: 0
+      SettleType: RMB
+      SkuCode: 366813-366838
+    SessionId: ghm
+    SourceChannel: wap
+    UserId: '#user_id#'
+  expected: 加入购物车成功
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 降价商品加入进货单
+  url: https://api.vsigo.cn/b2c_cart/cartoperation/insertcart
+- actual: 加入购物车成功
+  case_id: 6
+  check_sql: null
+  data:
+    BuyCount: 1
+    ChildList:
+    - BuyCount: 1
+      ItemId: 10004247
+      ProductId: 0
+      RuleId: 131550
+      SkuCode: 367649-367683
+    - BuyCount: 1
+      ItemId: 10004247
+      ProductId: 0
+      RuleId: 131550
+      SkuCode: 367650-367684
+    - BuyCount: 1
+      ItemId: 10001520
+      ProductId: 0
+      RuleId: 131550
+      SkuCode: 365373
+    ItemId: 10004245
+    ProductId: 0
+    RuleId: -1
+    SessionId: ghm
+    SkuCode: null
+    SourceChannel: wap
+    UserId: '#user_id#'
+  expected: 加入购物车成功
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 组合商品加入进货单
+  url: https://api.vsigo.cn/b2c_cart/cartoperation/insertgroupcart
+- actual: 200
+  case_id: 7
+  check_sql: null
+  data:
+    UserId: '#user_id#'
+    cookkey: null
+    shop: sigo_home
+    source_channel: wap
+  expected: 200
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 获取购物车数据
+  url: https://api.vsigo.cn/b2c_cart/cartmultiple/getcart
+- actual: 修改购物车成功
+  case_id: 8
+  check_sql: null
+  data:
+    CartId: '#cart_id#'
+    SessionId: ghm
+    SkuCode: 366814-366838
+    UserId: '#user_id#'
+  expected: 修改购物车成功
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 修改购物车内sku
+  url: https://api.vsigo.cn/b2c_cart/cartoperation/updatesku
+- actual: 查询成功
+  case_id: 9
+  check_sql: null
+  data:
+    AddressId: 0
+    CouponAmount: 1
+    CouponCode: A200817638v9soVB
+    IsUserGold: true
+    SessionId: ghm
+    Shop: sigo_home
+    SourceChannel: wap
+    UseSpecialDiscount: true
+    UserId: '#user_id#'
+  expected: 查询成功
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 普通商品去结算
+  url: https://api.vsigo.cn/b2c_order/orderoperation/getordersum-cartmulti
+- actual: 下单成功
+  case_id: 10
+  check_sql: null
+  data:
+    AddressId: 386298
+    Certification:
+      Code: null
+    CouponAmount: 1
+    CouponCode: A200817638v9soVB
+    Cps: null
+    IsCod: false
+    IsSecret: false
+    IsUserGold: true
+    Remark: null
+    Shop: sigo_home
+    SourceChannel: wap
+    UserId: '#user_id#'
+    gold: 1228
+  expected: 下单成功
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 生成普通订单
+  url: https://api.vsigo.cn/b2c_order/orderoperation/insertorder-cartmulti
+- actual: 成功
+  case_id: 11
+  check_sql: null
+  data:
+    cancelreason: 其他原因
+    cancelsource: wap
+    canceltype: 1
+    ordercode: '#order_code#'
+    userid: '#user_id#'
+  expected: 成功
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 取消普通订单
+  url: https://api.vsigo.cn/b2c_order/orderoperation/cancelorder
+- actual: 加入购物车成功
+  case_id: 12
+  check_sql: null
+  data:
+    ItemList:
+    - Axis: null
+      BuyCount: 1
+      CYL: null
+      ItemId: 10004254
+      ProductId: 0
+      RuleId: 0
+      SettleType: RMB
+      SkuCode: 367760-367786
+    SessionId: ghm
+    SourceChannel: wap
+    UserId: '#user_id#'
+  expected: 加入购物车成功
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 海淘商品加入购物车
+  url: https://api.vsigo.cn/b2c_cart/cartoperation/insertcart
+- actual: 200
+  case_id: 13
+  check_sql: null
+  data:
+    UserId: 1318961
+    cookkey: null
+    shop: sigo_haitao
+    source_channel: wap
+  expected: 200
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 获取海淘购物车数据
+  url: https://api.vsigo.cn/b2c_cart/cartmultiple/getcart
+- actual: 查询成功
+  case_id: 14
+  check_sql: null
+  data:
+    AddressId: 0
+    CouponAmount: 1
+    CouponCode: A200817638v9soVB
+    IsUserGold: true
+    SessionId: ghm
+    Shop: sigo_haitao
+    SourceChannel: wap
+    UseSpecialDiscount: true
+    UserId: '#user_id#'
+  expected: 查询成功
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 海淘商品去结算
+  url: https://api.vsigo.cn/b2c_order/orderoperation/getordersum-cartmulti
+- actual: 下单成功
+  case_id: 15
+  check_sql: null
+  data:
+    AddressId: 386298
+    Certification:
+      Code: null
+    CouponAmount: 1
+    CouponCode: A200817638v9soVB
+    Cps: null
+    IsCod: false
+    IsSecret: false
+    IsUserGold: true
+    Remark: null
+    Shop: sigo_haitao
+    SourceChannel: wap
+    UserId: '#user_id#'
+    gold: 1228
+  expected: 下单成功
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 生成海淘订单
+  url: https://api.vsigo.cn/b2c_order/orderoperation/insertorder-cartmulti
+- actual: 成功
+  case_id: 16
+  check_sql: null
+  data:
+    cancelreason: 其他原因
+    cancelsource: wap
+    canceltype: 1
+    ordercode: '#order_code#'
+    userid: '#user_id#'
+  expected: 成功
+  headers:
+    Content-Type: application/json
+    Noncestr: ORnsCqHONgkcccDf
+    Signature: 572026ADF0F945759BD1D37F90E56776
+    timestamp: 572026ADF0F945759BD1D37F90E56776
+  method: post
+  result: Pass
+  title: 取消海淘订单
+  url: https://api.vsigo.cn/b2c_order/orderoperation/cancelorder
