@@ -1,1 +1,0 @@
-{"uuid": "590c4aba-1cea-46c0-a01f-32f011b8a0c2", "children": ["d86f1d46-c7b0-4f18-9df5-b1b275346817"], "befores": [{"name": "session_action", "status": "passed", "steps": [{"name": "测试开始", "status": "passed", "start": 1574233179622, "stop": 1574233179622}], "start": 1574233179622, "stop": 1574233179622}], "start": 1574233179622, "stop": 1574233205249}

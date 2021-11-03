@@ -1,1 +1,0 @@
-{"uuid": "34fcfe56-af1b-43fb-8fa4-edfff5bc6a31", "children": ["d4358eb4-9ef6-4ea3-a539-dfacb19f00b5"], "befores": [{"name": "open_url_register", "status": "passed", "steps": [{"name": "启动浏览器，打开网址", "status": "passed", "start": 1574305390245, "stop": 1574305390245}], "start": 1574305390244, "stop": 1574305390245}], "start": 1574305390244, "stop": 1574305390466}

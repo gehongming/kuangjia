@@ -1,1 +1,0 @@
-{"uuid": "48a0544e-33e5-49e7-84f4-69b1f9209b0a", "children": ["99d36341-f60b-4c8d-8379-8c9e3930a837"], "befores": [{"name": "open_url_register", "status": "passed", "start": 1574305939137, "stop": 1574305946560}], "afters": [{"name": "open_url_register::0", "status": "passed", "start": 1574305972351, "stop": 1574305975483}], "start": 1574305939137, "stop": 1574305975483}
