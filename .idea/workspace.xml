@@ -2,91 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6d5ce11-0a7b-4804-b217-b2e7932ad51d" name="Default" comment="file文件获取">
-      <change afterPath="$PROJECT_DIR$/api_pytest/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_unittest/common/do_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_unittest/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_unittest/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_pytest/common/clean_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_pytest/common/open_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_pytest/testcases/test_3wap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/1460aec9-e56f-41f9-8b6a-85e8f56f788e-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/1460aec9-e56f-41f9-8b6a-85e8f56f788e-attachment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/2738e7ae-a843-4335-98ab-2eb89e3ad4c2-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/2738e7ae-a843-4335-98ab-2eb89e3ad4c2-attachment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/388551e9-41c4-4945-baac-5c6290ce1066-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/388551e9-41c4-4945-baac-5c6290ce1066-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/4d09bc55-ebeb-4de0-b0bd-905bc46a5411-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/4d09bc55-ebeb-4de0-b0bd-905bc46a5411-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/5057aa1d-d650-46f6-8e7c-a7c22f97cfdb-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/5057aa1d-d650-46f6-8e7c-a7c22f97cfdb-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/50ae32b9-f05e-44b2-83cf-7c1cbca93d48-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/50ae32b9-f05e-44b2-83cf-7c1cbca93d48-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/54d1fdf6-3ad7-4e26-ab37-e78f93733b7c-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/54d1fdf6-3ad7-4e26-ab37-e78f93733b7c-attachment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/64cee2a5-767b-451c-80d9-185cb15d471d-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/64cee2a5-767b-451c-80d9-185cb15d471d-attachment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/7ae3eddc-0611-40b3-ae42-05b349581d1c-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/7ae3eddc-0611-40b3-ae42-05b349581d1c-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/7bba234d-f444-4c06-a894-c5c670f12586-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/7bba234d-f444-4c06-a894-c5c670f12586-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/7e37823a-0feb-4344-bba4-e8740601a866-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/7e37823a-0feb-4344-bba4-e8740601a866-attachment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/99a9cda4-8acd-4a5b-9e11-4ea129c1c162-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/99a9cda4-8acd-4a5b-9e11-4ea129c1c162-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/a083bb7a-2d0b-4a30-86f6-a6147aa545ba-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/a083bb7a-2d0b-4a30-86f6-a6147aa545ba-attachment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/a40a1b00-774e-47c2-a8be-08bf143791fa-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/a40a1b00-774e-47c2-a8be-08bf143791fa-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/b5643959-2cb2-4d3c-a0c7-b52fcd237ad3-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/b5643959-2cb2-4d3c-a0c7-b52fcd237ad3-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/dd6036c5-f3b2-424f-b27f-f963e54f5cf0-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/dd6036c5-f3b2-424f-b27f-f963e54f5cf0-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/ebd3e930-b63c-4282-bcd9-5b5220dfbe13-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/ebd3e930-b63c-4282-bcd9-5b5220dfbe13-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/f3af1ded-3a7a-46d1-b69d-7eeeb7a39e7c-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/f3af1ded-3a7a-46d1-b69d-7eeeb7a39e7c-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/f50f12c4-35aa-4cc9-8a37-7d666c98113f-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/f50f12c4-35aa-4cc9-8a37-7d666c98113f-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/allure/fcdc96a9-faea-472d-9ea1-8a712cf07043-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/allure/fcdc96a9-faea-472d-9ea1-8a712cf07043-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1650.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1650.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1653.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1653.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1654.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1654.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1708.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1708.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1712.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1712.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1715.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1715.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1716.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1716.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1739.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1739.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1740.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1740.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1744.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1744.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1746.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1746.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1748.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1748.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1749.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1749.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1752.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1752.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1758.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1758.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-14 1807.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-14 1807.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-15 2242.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-15 2242.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-15 2314.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-15 2314.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-15 2316.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-15 2316.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-15 2319.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-15 2319.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-15 2322.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-15 2322.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-15 2326.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-15 2326.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-15 2336.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-15 2336.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-15 2352.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-15 2352.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-15 2353.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-15 2353.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/API_Autotest_2019-07-15 2354.log" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/API_Autotest_2019-07-15 2354.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/log/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/log/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/OutPuts/reports/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/OutPuts/reports/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/contants.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/contants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/context.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/context.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/create_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/create_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/do_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/do_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/do_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/do_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/do_sqlserver" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/do_sqlserver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/do_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/do_yaml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/http_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/http_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/openexcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/openexcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/common/webservice_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/webservice_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/config/districtcode.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/config/districtcode.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/config/global.conf" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/config/global.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/config/online.conf" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/config/online.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/config/test.conf" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/config/test.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/data/demo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/data/demo.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/data/testcase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/data/testcase.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/testcases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/testcases/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/testcases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/testcases/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/testcases/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/testcases/test_1sendMCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/testcases/test_1sendMCode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_pytst/testcases/test_2register.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/testcases/test_2register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_unittest/testcases/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_unittest/testcases/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_unittest/TestCases/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_unittest/TestCases/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_pytest/common/do_sqlserver" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/common/do_sqlserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_pytest/data/demo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/data/wap_day.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_pytest/testcases/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_pytest/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +167,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web_unittest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api_pytest/testcases" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/week_9/log/case1.log" />
@@ -253,13 +175,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\框架\api_pytest\testcases" />
+      <recent name="F:\框架\api_pytest\common" />
+      <recent name="F:\框架\leamon_app" />
       <recent name="F:\框架\web_unittest" />
       <recent name="F:\框架\api_unittest" />
-      <recent name="F:\框架\api_pytest" />
-      <recent name="F:\框架\leamon_app" />
-      <recent name="F:\框架\app_framework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\框架\api_pytest" />
       <recent name="D:\py-15\作业\work_pytest" />
       <recent name="D:\py-15\作业\work_pytest\TestCases" />
       <recent name="D:\py-15\作业\week_11\OutPut" />
