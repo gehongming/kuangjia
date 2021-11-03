@@ -1,0 +1,11 @@
+allure-pytest==2.6.5
+allure-python-commons==2.6.5
+Faker==1.0.7
+openpyxl==2.6.1
+PyMySQL==0.9.3
+pytest==4.5.0
+pytest-html==1.21.1
+pytest-metadata==1.8.0
+pytest-rerunfailures==7.0
+requests==2.24.0
+suds-jurko==0.6
