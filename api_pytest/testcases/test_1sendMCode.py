@@ -1,12 +1,11 @@
 import json
 import pytest
 
-from api_pytst.common import openexcel
-from api_pytst.common import contants
-from api_pytst.common import log
+from common import openexcel
+from common import contants
+from common import log
 import warnings
 logger = log.get_logger(__name__)
-
 
 
 @pytest.mark.usefixtures("open_url")
@@ -16,12 +15,13 @@ class TestRegister:
 
     @pytest.mark.parametrize("data", cases)
     @pytest.mark.demo
-    def test_sendMCode(self,open_url,data):
+    def test_sendMCode(self, open_url, data):
         #data["url"], data["data"], data["method"], data["expected"], data["case_id"], data["title"], data["result"], data["check_sql"]
         logger.info('开始测试：{}'.format(data["title"]))
         logger.info('请求数据是:{}'.format(data["data"]))
 
-        resp=open_url[0].webservice(data["url"],data["data"],data["method"])# 实际值
+        resp = open_url[0].webservice(
+            data["url"], data["data"], data["method"])  # 实际值
         # resp2=json.dumps(resp,ensure_ascii=False) #转换成字符串
         try:
             # self.assertIn(data["expected"],resp)
@@ -36,8 +36,6 @@ class TestRegister:
             logger.error("报错了，{0}".format(e))
             raise e
         finally:
-           logger.info('响应结果是：{}'.format(data["result"]))
-           self.excel.write(int(data["case_id"]) + 1, str(resp), result)
-           logger.info('结束测试：{0}'.format(data["title"]))
-
-
+            logger.info('响应结果是：{}'.format(data["result"]))
+            self.excel.write(int(data["case_id"]) + 1, str(resp), result)
+            logger.info('结束测试：{0}'.format(data["title"]))

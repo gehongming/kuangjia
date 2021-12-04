@@ -1,8 +1,8 @@
 #__author__="G"
 #date: 2019/4/24
 import logging
-from api_pytst.common import contants
-from api_pytst.common.config import config
+from common import contants
+from common.config import config
 import time
 
 
@@ -28,6 +28,8 @@ def get_logger(name):
     logger.addHandler(file_handler)
     # 收集日志
     return logger
+
+
 
 # logger = get_logger('case')
 # logger.info('测试开始啦')

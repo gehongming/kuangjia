@@ -1,8 +1,6 @@
 import openpyxl
 
 
-
-
 class HandleExcel:
     """用来操作excel文件的类="""
 
@@ -41,6 +39,7 @@ class HandleExcel:
             # 将该行数据打包的字典，放入cases_data中
             cases_data.append(case)
         # 返回读取出来的所有数据
+        wb.close()
         return cases_data
 
     def write_data(self, row, column, value):
@@ -59,15 +58,16 @@ class HandleExcel:
         sh.cell(row=row, column=column, value=value)
         # 把工作簿保存为文件
         wb.save(self.filename)
+        wb.close()
 
 
 #
 if __name__ == '__main__':
     import os
-    from common.handle_path import DATA_DIR
+    import contants
     # 调试读数据的代码
-    sheet_name = "test_call_ivr"
-    filename = os.path.join(DATA_DIR, 'daily', "call_apicases_daily.xlsx")
+    sheet_name = "verifiedUserAuth"
+    filename = contants.case_file
     excel = HandleExcel(filename,sheet_name)
     cases = excel.read_data()
     print(cases)
