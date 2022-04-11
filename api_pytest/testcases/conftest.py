@@ -8,10 +8,10 @@ from api_pytst.common.webservice_request import WebService
 from api_pytst.common.context import Context
 from api_pytst.common import contants
 from api_pytst.common import log
+from common.http_request import HttpCookies
 
 logger = log.get_logger(__name__)
 from api_pytst.common import contants
-
 
 
 # 删除指定目录下的文件
@@ -24,6 +24,7 @@ def remove_files_in_dir(dir):
         else:
             os.remove(c_path)
 
+
 # session级别的
 @pytest.fixture(scope="session",autouse=True)
 def session_action():
@@ -33,14 +34,16 @@ def session_action():
     yield
     print("===== 会话结束，测试用例全部执行完成！=====")
 
+
 @pytest.fixture(scope="class")
 def open_url():
     # 前置
     http_request = WebService()
+    request = HttpCookies()
     mysql = do_mysql.DoMysql()
     context = Context()
     warnings.simplefilter("ignore", ResourceWarning)
-    yield  (http_request,mysql,context) # yield之前代码是前置，之后的代码就是后置。
+    yield (http_request, mysql, context, request) # yield之前代码是前置，之后的代码就是后置。
     # 后置
     mysql.close()
 

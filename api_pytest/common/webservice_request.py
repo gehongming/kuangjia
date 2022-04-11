@@ -1,6 +1,6 @@
 from suds.client import Client
-from api_pytst.common import openexcel
-from api_pytst.common.config import config
+from common import openexcel
+from common.config import config
 import suds
 
 
