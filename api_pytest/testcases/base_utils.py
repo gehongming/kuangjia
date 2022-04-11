@@ -11,6 +11,6 @@ import json
 import pytest
 
 from common import openexcel
-from common import contants
-from common import log
+from common import do_contants
+from common import do_log
 import warnings

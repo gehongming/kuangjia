@@ -3,7 +3,7 @@ from base_utils import *
 
 @pytest.mark.usefixtures("open_url")
 class TestRegister:
-    excel = openexcel.DoExcel(contants.case_file, 'testcase_demo')
+    excel = openexcel.DoExcel(do_contants.case_file, 'testcase_demo')
     cases = excel.read()
 
     @pytest.mark.parametrize("data", cases)
@@ -15,7 +15,4 @@ class TestRegister:
         status_code = self.resp.status_code
 
         open_url[3].assert_res(self, data['expected'], status_code, data, self.resp, self.excel, data['case_id']+1, data['actual'])
-
-
-
 
