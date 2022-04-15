@@ -15,11 +15,7 @@ class ReadConfig:
         self.config.read(file, encoding='utf-8')
 
     def get(self, section, option):
-        try:
-            options = self.config.get(section,option)
-            return options
-        except:
-            print(f'配置文件下{section}没有{option}')
+            return self.config.get(section,option)
 
 
 config = ReadConfig()
