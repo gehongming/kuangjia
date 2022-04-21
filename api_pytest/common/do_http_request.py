@@ -1,6 +1,7 @@
 # __author__="G"
 # date: 2019/4/11
 from requests import request
+import requests
 import pytest
 import json
 import time
@@ -10,18 +11,22 @@ from common.create_data import EnvData
 from common.context import Context
 from common.log import log
 
+headrs = {}
+
 
 class HttpCookies:
 
     @staticmethod
     def http_request(case, re_cls=EnvData):
 
-        time.sleep(int(case.get('sleep'))) if case.get('sleep') else time.sleep(0)
-
         if not case.get("skip"):
+            time.sleep(int(case.get('sleep'))) if case.get('sleep') else time.sleep(0)
             if case.get('data'):
                 data = json.loads(Context().re_replace(case["data"]))
                 log.info(f"用例--{case['title']}请求数据：{data}")
+            else:
+                data = None
+                log.info(f"用例--{case['title']}请求数据：为空")
             # 获取用例中的请求方法、平台
             method = case["method"]
             target = case['target'].lower()
@@ -41,6 +46,8 @@ class HttpCookies:
                     resp = request(method=method, url=url, json=data, cookies=cookies, verify=False)
                 else:
                     resp = request(method=method, url=url, data=data, cookies=cookies, verify=False)
+            else:
+                return "Method is not [get, delete, post, put]"
             par = case.get('jsonpath_exp_save')
             if par:
                 re_par = EnvData().re_par_new(eval(par), resp.json(), re_cls=re_cls)
