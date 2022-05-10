@@ -3,9 +3,9 @@
 import jmespath
 import requests
 
-from common import log
-from common.config import config
-from common.context import Context
+from common.do_log import log
+from common.do_config import config
+from common.do_context import Context
 import pytest
 
 logger = log.get_logger(__name__)

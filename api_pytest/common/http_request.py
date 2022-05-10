@@ -2,19 +2,13 @@
 #date: 2019/4/11
 import requests
 
-from common.do_config import config
+from common.do_config import *
+config = ReadConfig()
 
 
 class HttpCookies:
-    def http_request(
-            self,
-            url,
-            data,
-            method,
-            cookies=None,
-            json=None,
-            headers=None,
-            verify=None):
+
+    def http_request(self, url, data, method, cookies=None, json=None, headers=None, verify=None):
         '''
         :param url: 地址
         :param data: 数据
@@ -32,27 +26,12 @@ class HttpCookies:
         '''
         url = config.get('api', 'pre_url') + url  # url拼接
         if method.lower() == 'get':
-            resp = requests.get(
-                url=url,
-                params=data,
-                cookies=cookies,
-                headers=headers,
-                verify=verify)
+            resp = requests.get(url=url, params=data, cookies=cookies, headers=headers, verify=verify)
         elif method.lower() == 'post':
             if json:
-                resp = requests.post(
-                    url=url,
-                    json=data,
-                    cookies=cookies,
-                    headers=headers,
-                    verify=verify)
+                resp = requests.post(url=url, json=data, cookies=cookies, headers=headers, verify=verify)
             else:
-                resp = requests.post(
-                    url=url,
-                    data=data,
-                    cookies=cookies,
-                    headers=headers,
-                    verify=verify)
+                resp = requests.post(url=url, data=data, cookies=cookies, headers=headers, verify=verify)
         # print ('''响应报文:{}
         # 响应头:{}
         # 状态码:{}
@@ -68,37 +47,15 @@ class HttpSessions:
         # 打开一个session
         self.session = requests.sessions.session()
 
-    def http_request(
-            self,
-            method,
-            url,
-            data=None,
-            json=None,
-            headers=None,
-            verify=None):
+    def http_request(self, method, url, data=None, json=None, headers=None, verify=None):
         url = config.get('api', 'pre_url') + url
         if method.lower() == 'get':
-            resp = self.session.request(
-                method=method,
-                url=url,
-                params=data,
-                headers=headers,
-                verify=verify)
+            resp = self.session.request(method=method, url=url, params=data, headers=headers, verify=verify)
         elif method.lower() == 'post':
             if json:
-                resp = self.session.request(
-                    method=method,
-                    url=url,
-                    json=data,
-                    headers=headers,
-                    verify=verify)
+                resp = self.session.request( method=method, url=url, json=data, headers=headers, verify=verify)
             else:
-                resp = self.session.request(
-                    method=method,
-                    url=url,
-                    data=data,
-                    hheaders=headers,
-                    verify=verify)
+                resp = self.session.request( method=method, url=url, data=data, headers=headers, verify=verify)
         else:
             print('UN-support method')
         return (resp.text)

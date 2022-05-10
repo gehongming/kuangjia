@@ -1,7 +1,9 @@
+import suds
 from suds.client import Client
 from common import openexcel
-from common.config import config
-import suds
+from common.do_config import *
+
+config = ReadConfig()
 
 
 class WebService:

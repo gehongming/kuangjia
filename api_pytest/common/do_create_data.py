@@ -1,5 +1,5 @@
 # from faker import Faker
-from common.contants import *
+from common.do_contants import *
 import random
 from faker import Faker
 from datetime import date

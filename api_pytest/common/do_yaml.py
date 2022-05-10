@@ -1,6 +1,6 @@
 import yaml
 import os
-from common import contants
+from common import do_contants
 
 
 class DoYaml:
@@ -28,7 +28,7 @@ class DoYaml:
 
 
 if __name__ == '__main__':
-    a = DoYaml(contants.case_file + '\\wap_day.yaml')
+    a = DoYaml(do_contants.case_file + '\\wap_day.yaml')
     b = a.read_yaml()
     print(b)
     # print(

@@ -6,10 +6,11 @@ import pytest
 import json
 import time
 import jmespath
-from common.config import config
-from common.create_data import EnvData
-from common.context import Context
-from common.log import log
+from common.do_config import *
+from common.do_create_data import EnvData
+from common.do_context import Context
+from common.do_log import log
+config = ReadConfig()
 
 headrs = {}
 
@@ -35,6 +36,7 @@ class HttpCookies:
             cookies = json.loads(cookies.replace("'", '"'))
 
             url = Context().re_replace(case["interface"])
+            # 配置文件还要改
             url = config.get('env', f"base_{target}_url") + url
 
             log.info(f"用例--{case['title']}---请求url：{url}")

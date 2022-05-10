@@ -1,6 +1,7 @@
 import pymysql
 
-from common.config import config
+from common.do_config import *
+config = ReadConfig()
 
 
 class DoSqlServer:

@@ -13,4 +13,7 @@ import pytest
 from common import openexcel
 from common import do_contants
 from common import do_log
+from common import do_config
 import warnings
+
+config = do_config.ReadConfig()

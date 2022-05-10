@@ -1,16 +1,16 @@
 import json
 import pytest
 
-from common import openexcel
-from common import contants
-from common import log
+from common import do_contants
+from common.do_log import log
+from  common import openexcel
 import warnings
 logger = log.get_logger(__name__)
 
 
 @pytest.mark.usefixtures("open_url")
 class TestRegister:
-    excel = openexcel.DoExcel(contants.case_file, 'sendMCode')
+    excel = openexcel.DoExcel(do_contants.case_file, 'sendMCode')
     cases = excel.read()
 
     @pytest.mark.parametrize("data", cases)
