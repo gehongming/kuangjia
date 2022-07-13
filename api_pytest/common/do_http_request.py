@@ -74,7 +74,7 @@ class HttpCookies:
                 actual = None
             try:
                 assert expected["status_code"] == status_code
-                assert jsons == actual
+                assert jsons == actual  # 可参考unittest继续增加类型选择。暂时就不先加了
                 log.info(f"用例--{case['title']}--执行通过")
             except AssertionError as e:
                 log.error(f"用例--{case['title']}--执行未通过")
