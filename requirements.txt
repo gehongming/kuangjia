@@ -58,6 +58,6 @@ uncurl==0.0.10
 UNKNOWN==0.0.0
 urllib3==1.24.1
 wcwidth==0.1.7
-Werkzeug==0.15.5
+Werkzeug==2.2.3
 xerox==0.4.1
 xlrd==1.2.0
